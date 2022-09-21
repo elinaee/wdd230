@@ -1,17 +1,29 @@
 @media only screen and (min-width: 32.5em) {
     h1 {
         font-size: 40px;
+        order: 2;
+        text-align: right;
     }
 
     h2 {
         font-size: 32px;
     }
     header {
-        display: flex;
         flex-direction: row;
-        background-color: black;
         border: 2px solid;
         border-radius: 15px;
         align-items:center;
+    }
+    footer{
+        border: 2px solid;
+        border-radius: 15px;
+    }
+    .phrase {
+        font-size: 20px;
+    }
+    .photo {
+        display: block;
+        padding: 5px;
+        order: 1;
     }
 }
