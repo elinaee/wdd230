@@ -4,16 +4,16 @@
         grid-template-columns: 1fr 1fr 1fr;
     }
     header {
-        font-size: 40px;
-    }
-    .section-header h3 {
         font-size: 38px;
     }
+    .section-header h3 {
+        font-size: 36px;
+    }
     .section-header a {
-        font-size: 33px;
+        font-size: 30px;
     }
     section p {
-        font-size: 30px;
+        font-size: 28px;
     }
     footer {
         font-size: 28px;
