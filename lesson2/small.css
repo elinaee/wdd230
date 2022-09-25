@@ -1,3 +1,6 @@
+body {
+    font-family: 'Ubuntu', sans-serif;;
+}
 header {
     background-color: #3773ae;
     box-shadow: darkgray 2px 2px 0;
