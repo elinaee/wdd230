@@ -16,7 +16,6 @@ header h4 {
 }
 
 main {
-    display: grid !important;
     grid-template-columns: 1fr;
     overflow: hidden;
 }
