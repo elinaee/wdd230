@@ -8,6 +8,10 @@
         font-size: 28px;
     }
 	
+	nav ul { 
+		width: 700px;
+    }
+
 	nav a {
 		font-size: 24px;
 	}
