@@ -57,10 +57,6 @@ nav ul li a {
 	cursor: pointer;
 }
 
-.active {
-	color: lightcoral;
-}
-
 main {
 	display: grid;
 	grid-template-columns: 1fr;
