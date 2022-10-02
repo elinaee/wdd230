@@ -1,0 +1,54 @@
+/* Tablet Views ******************************/
+@media only screen and (min-width: 37.5em) {
+	h1 {
+		font-size: 23px;
+	}
+
+    h2 {
+        font-size: 18px;
+    }
+
+	/* Flex *********************/
+	nav ul { 
+        display: flex;
+		width: 780px;
+    }
+
+	nav ul li {
+        flex: 1 1 auto;
+    }
+
+	nav a {
+		font-size: 15px;
+	}
+
+	nav a:hover {
+		/* 	background-color: #bbb;
+	color: #36454f; */
+		--d: 75%;
+	}
+
+	main {
+		grid-template-columns: 1fr 1fr;
+        font-size: 17px;
+	}
+	article:nth-child(3) {
+		grid-column: span 2;
+	}
+	main picture {
+		display: block;
+	}
+	main picture img {
+		width: 100%;
+		height: auto;
+		border: 1px solid #bbb;
+	}
+	
+	footer p {
+		flex-direction: row;
+	}
+	
+	footer p span:not(:last-child)::after {
+		content: ' 🧪\00a0';
+	}
+}
