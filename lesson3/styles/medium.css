@@ -11,7 +11,7 @@
 	/* Flex *********************/
 	nav ul { 
         display: flex;
-		width: 780px;
+		width: 700px;
     }
 
 	nav ul li {
@@ -32,23 +32,8 @@
 		grid-template-columns: 1fr 1fr;
         font-size: 17px;
 	}
-	article:nth-child(3) {
-		grid-column: span 2;
-	}
-	main picture {
-		display: block;
-	}
-	main picture img {
-		width: 100%;
-		height: auto;
-		border: 1px solid #bbb;
-	}
 	
 	footer p {
 		flex-direction: row;
-	}
-	
-	footer p span:not(:last-child)::after {
-		content: ' 🧪\00a0';
 	}
 }

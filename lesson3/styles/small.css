@@ -66,19 +66,6 @@ main {
 	grid-template-columns: 1fr;
 	font-size: 14px;
 }
-main article {
-	margin: 1rem;
-	border: 1px solid rgba(0, 0, 0, 0.2);
-	padding: 1rem;
-	background-color: #eee;
-}
-main article ul {
-	margin: 1rem 0 0 1rem;
-}
-main picture {
-	display: none;
-	margin: 1rem;
-}
 
 footer p {
 	padding: .5rem;
