@@ -1,6 +1,7 @@
 body {
 	font-size: 16px;
 	font-family: "Ubuntu", sans-serif;
+    background:  #f4f3f3;
 }
 
 header,
@@ -9,7 +10,7 @@ footer {
 	display: flex;
 	flex-flow: column;
 	align-items: center;
-	justify-content: center;
+	justify-content: space-between;
 	padding: .75rem;
 	border: 1px solid #f4f3f3;
 	color: white;
@@ -20,7 +21,6 @@ main,
 footer {
 	max-width: 90%;
 	margin: 0 auto;
-
 }
 
 h1 {
@@ -32,6 +32,14 @@ h2 {
 	color: rgb(92, 89, 89);
     font-size: 15px;
 	font-family: Cambria, 'Times New Roman', serif;
+}
+
+nav button {
+    margin: .2rem 0.5vw;
+    background: transparent;
+    color: white;
+    border: none;
+    font-size: 2rem;
 }
 
 nav {
@@ -50,10 +58,8 @@ nav ul li a {
 	text-align: center;
 	padding: 0.75rem;
 	text-decoration: none;
+    border-top: 1px solid rgba(o, 0, 0, 0.5);
 	font-size: 13px;
-	background: linear-gradient(90deg, transparent, white, transparent) bottom /
-		var(--d, 0) 3px no-repeat;
-	transition: 0.5s;
 	cursor: pointer;
 }
 
@@ -61,6 +67,8 @@ main {
 	display: grid;
 	grid-template-columns: 1fr;
 	font-size: 14px;
+    margin-top: 25px;
+    margin-bottom: 30px;
 }
 
 footer p {
@@ -77,4 +85,28 @@ footer p {
     width: 170px;
     height: auto;
 	box-shadow: 0 0 30px rgb(92, 89, 89);
+    align-items: center;
+    margin-left: -34rem;
+    display: flex;
+    gap: 0.8rem;
+    justify-content: center;
+    margin-bottom: 1.6rem;
+}
+
+.chamber-name {
+    text-align: center;
+}
+
+.hero, .event, .weather, .news, .join {
+    border: 1px solid #b6b6b6;
+    margin-bottom: 1.6rem;
+    padding: 1.6rem;
+}
+
+.spotlights section:last-child {
+    display: none;
+}
+
+.spotlights section {
+    border: 1px solid #b6b6b6;
 }

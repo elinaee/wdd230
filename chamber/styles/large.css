@@ -16,6 +16,12 @@
 		font-size: 24px;
 	}
 
+	nav ul li a {
+		background: linear-gradient(90deg, transparent, white, transparent) bottom /
+		var(--d, 0) 3px no-repeat;
+	transition: 0.5s;
+	}
+
 	main {
 		grid-template-columns: 1fr;
 	}

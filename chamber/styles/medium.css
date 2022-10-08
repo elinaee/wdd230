@@ -35,4 +35,14 @@
 	footer p {
 		flex-direction: row;
 	}
+
+	.chamber-name {
+		display: flex;
+		flex-direction: column;
+		margin-left: -10px;
+	}
+
+	.social {
+		margin-right: -50rem;
+	}
 }
