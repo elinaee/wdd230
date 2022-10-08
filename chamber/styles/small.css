@@ -82,7 +82,7 @@ footer p {
 	align-items: center;
 }
 
-.logo-box img {
+.logo-box img, .logo-footer img {
     border: 1px solid #ddd;
     border-radius: 80px;
     padding: 5px;
@@ -92,7 +92,6 @@ footer p {
     align-items: center;
     display: flex;
     gap: 0.8rem;
-    justify-content: center;
     margin-bottom: 1.6rem;
 }
 
@@ -122,3 +121,10 @@ footer p {
     justify-content: space-between;
     flex-wrap: wrap;
 }
+
+.logo-footer {
+    align-items: center;
+    text-align: center;
+    display: block;
+}
+
