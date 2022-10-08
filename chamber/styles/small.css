@@ -58,9 +58,13 @@ nav ul li a {
 	text-align: center;
 	padding: 0.75rem;
 	text-decoration: none;
-    border-top: 1px solid rgba(o, 0, 0, 0.5);
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
 	font-size: 13px;
 	cursor: pointer;
+}
+
+.date {
+    font-size: 15px;
 }
 
 main {
@@ -86,7 +90,6 @@ footer p {
     height: auto;
 	box-shadow: 0 0 30px rgb(92, 89, 89);
     align-items: center;
-    margin-left: -34rem;
     display: flex;
     gap: 0.8rem;
     justify-content: center;
@@ -109,4 +112,13 @@ footer p {
 
 .spotlights section {
     border: 1px solid #b6b6b6;
+}
+
+.logo-title {
+    min-height: 0 !important;
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
