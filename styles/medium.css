@@ -21,9 +21,11 @@
     .phrase {
         font-size: 20px;
     }
-    .photo {
+    .photo img {
         display: block;
         padding: 5px;
         order: 1;
+        border-radius: 200px;
+        box-shadow: 2px 2px 5px white;
     }
 }
