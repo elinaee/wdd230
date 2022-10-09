@@ -24,9 +24,34 @@ const fulldateUK = new Intl.DateTimeFormat("en-UK", {
 datefieldUK.innerHTML = `<em>${fulldateUK}</em>`;
 
 
-// For the Hamburger menu
+// For the Hamburger menu //
 
-const hambutton = document.querySelector('.ham');
+const header = document.querySelector("header");
+
+const hambutton = document.querySelector('.hamburgerBtn');
 const mainnav = document.querySelector('.navigation')
 
 hambutton.addEventListener('click', () => {mainnav.classList.toggle('responsive')}, false);
+
+
+////////
+
+const menuBtn = document.querySelector(".hamburgerBtn");
+const navList = document.querySelector(".navigation-list");
+function toggleClose() {
+  menuBtn.classList.toggle("change");
+  navList.classList.toggle("show-list");
+}
+menuBtn.addEventListener("click", toggleClose);
+
+
+//////////
+
+
+function toggleMenu(){
+    document.getElementById("navList").classList.toggle("open");
+    document.getElementById("hamburgerBtn").classList.toggle("open");
+}
+
+const x = document.getElementById("hamburgerBtn");
+x.onclick = toggleMenu;
