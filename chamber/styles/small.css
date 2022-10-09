@@ -125,18 +125,18 @@ footer p {
 .logo-footer {
     align-items: center;
     text-align: center;
-    display: block;
+    display: flex;
+    flex-direction: column;
 }
 
 button {
     cursor: pointer;
 }
 
-  button span {
+button span {
     display: block;
 }
 
-header {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1f;
-}
+.social {
+    text-align: center;
+}  
