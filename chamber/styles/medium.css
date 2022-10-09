@@ -41,4 +41,7 @@
 		flex-direction: column;
 	}
 
+	.social {
+		margin-left: 0px;
+	}
 }

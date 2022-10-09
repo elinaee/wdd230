@@ -22,3 +22,11 @@ const fulldateUK = new Intl.DateTimeFormat("en-UK", {
 
 
 datefieldUK.innerHTML = `<em>${fulldateUK}</em>`;
+
+
+// For the Hamburger menu
+
+const hambutton = document.querySelector('.ham');
+const mainnav = document.querySelector('.navigation')
+
+hambutton.addEventListener('click', () => {mainnav.classList.toggle('responsive')}, false);
