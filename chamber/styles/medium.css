@@ -44,4 +44,43 @@
 	.social {
 		margin-left: 0px;
 	}
+
+	main {
+		display: grid;
+		gap: 1.6rem;
+		grid-template-areas:
+		  "hero  hero  hero  hero"
+		  "news  news   news  news"
+		  "spotlights  spotlights  spotlights spotlights"
+		  "join    join    join     join"
+		  "event event   event   weather";
+	}
+
+	.hero {
+		grid-area: hero;
+	  }
+	
+	  .event {
+		grid-area: event;
+	  }
+	
+	  .weather {
+		grid-area: weather;
+	  }
+	
+	  .news {
+		grid-area: news;
+	  }
+	
+	  .spotlights {
+		grid-area: spotlights;
+		display: flex;
+		gap: 1.6rem;
+	  }
+	
+	  .join {
+		display: block;
+		grid-area: join;
+	  }
+
 }

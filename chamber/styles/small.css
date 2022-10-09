@@ -127,3 +127,11 @@ footer p {
     text-align: center;
     display: block;
 }
+
+button {
+    cursor: pointer;
+}
+
+  button span {
+    display: block;
+}
