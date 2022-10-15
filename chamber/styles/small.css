@@ -101,7 +101,67 @@ footer p {
 .hero, .event, .weather, .news, .join {
     border: 1px solid #b6b6b6;
     margin-bottom: 1.6rem;
-    padding: 1.6rem;
+    position: relative;
+    text-align: center;
+    line-height: 32px;
+}
+
+.event, .weather, .news, .join, .spotlights {
+    padding: 5px;
+}
+
+.hero p, .event p, .weather p, .news p, .join p {
+    font-size: 18px;
+}
+
+h3 {
+    display: block;
+    font-size: 26px;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    color: rgb(92, 89, 89);
+}
+
+/* Here starts the .hero box */
+.hero h3 {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    margin: 0;
+    font-size: 29px;
+}
+
+.hero img {
+    width: 100%;
+    height: 100%;
+}
+
+.joinus {
+    background-color: #b6b6b6;
+    color: rgb(92, 89, 89);
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    margin: 5%;
+    opacity: 0.95;
+}
+
+
+a:-webkit-any-link {
+    color: white;
+    cursor: pointer;
+}
+
+.spotlights {
+    text-align: center;
+    line-height: 32px;
 }
 
 .spotlights section:last-child {
