@@ -107,6 +107,7 @@ footer p {
 
 .event, .weather, .news, .join, .spotlights {
     padding: 5px;
+    text-align: center;
 }
 
 .hero p, .event p, .weather p, .news p, .join p {
@@ -156,11 +157,6 @@ h3 {
 a:-webkit-any-link {
     color: white;
     cursor: pointer;
-}
-
-.spotlights {
-    text-align: center;
-    line-height: 32px;
 }
 
 .spotlights section:last-child {
