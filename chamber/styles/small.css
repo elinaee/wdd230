@@ -63,7 +63,7 @@ nav ul li a {
     border-top: 1px solid rgba(255, 255, 255, 0.5);
 	font-size: 13px;
 	cursor: pointer;
-    margin-left: 900px;
+    margin-left: 500px;
     position: absolute;
     margin-top: -13px;
 }
@@ -106,7 +106,7 @@ footer p {
     flex-direction: row;
     gap: 0.8rem;
     margin-bottom: 1.6rem;
-    margin-left: 220px;
+    margin-left: 200px;
     margin-top: 15px;
 }
 
@@ -228,7 +228,7 @@ button span {
 .social {
     text-align: center;
     display: flexbox;
-    margin-right: -4400px;
+    margin-right: -1700px;
     margin-top: -150px;
 }  
 
