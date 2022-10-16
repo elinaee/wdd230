@@ -8,7 +8,7 @@ header,
 footer {
 	background-color: #b6b6b6;
 	display: flex;
-	flex-flow: column;
+	flex-flow: row;
 	align-items: center;
 	justify-content: space-between;
 	padding: 0;
@@ -22,6 +22,8 @@ footer {
 	max-width: 90%;
 	margin: 0 auto;
     height: auto;
+    position: relative;
+    z-index: 1;
 }
 
 h1 {
@@ -46,6 +48,7 @@ h2 {
 nav {
 	margin: 0 auto;
 	max-width: max-content;
+    position: relative;
 }
 nav ul {
 	list-style-type: none;
@@ -60,11 +63,16 @@ nav ul li a {
     border-top: 1px solid rgba(255, 255, 255, 0.5);
 	font-size: 13px;
 	cursor: pointer;
+    margin-left: 900px;
+    position: absolute;
+    margin-top: -13px;
 }
 
 .date {
     font-size: 15px;
     background-color: rgb(92, 89, 89);
+    position: absolute;
+    z-index: 100;
 }
 
 main {
@@ -78,9 +86,12 @@ main {
 footer p {
 	padding: .5rem;
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
 	align-items: center;
-    margin-bottom: -9px;
+}
+
+#time {
+    margin-bottom: -50px;
 }
 
 .logo-box img, .logo-footer img {
@@ -92,8 +103,11 @@ footer p {
 	box-shadow: 0 0 30px rgb(92, 89, 89);
     align-items: center;
     display: flex;
+    flex-direction: row;
     gap: 0.8rem;
     margin-bottom: 1.6rem;
+    margin-left: 220px;
+    margin-top: 15px;
 }
 
 .chamber-name {
@@ -184,7 +198,23 @@ a:-webkit-any-link {
     align-items: center;
     text-align: center;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+}
+
+.canton {
+    margin-left: 40px;
+}
+
+.chamber {
+    margin-top: 110px;
+    margin-left: -100px;
+}
+
+.info {
+    margin-left: 900px;
+    margin-top: -90px;
+    margin-bottom: 50px;
+    position: relative;
 }
 
 button {
@@ -197,6 +227,9 @@ button span {
 
 .social {
     text-align: center;
+    display: flexbox;
+    margin-right: -4400px;
+    margin-top: -150px;
 }  
 
 .show-list {
