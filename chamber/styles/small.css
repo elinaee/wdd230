@@ -80,7 +80,7 @@ main {
 	grid-template-columns: 1fr;
 	font-size: 14px;
     margin-top: 25px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     height: 600px;
 }
 
@@ -93,7 +93,7 @@ footer p {
 
 #time {
     margin-bottom: -150px;
-    margin-left: -1490px;
+    margin-left: -1290px;
     z-index: 100;
 }
 
