@@ -80,8 +80,6 @@ main {
 	grid-template-columns: 1fr;
 	font-size: 14px;
     margin-top: 25px;
-    margin-bottom: 20px;
-    height: 600px;
 }
 
 footer p {
@@ -93,7 +91,7 @@ footer p {
 
 #time {
     margin-bottom: -150px;
-    margin-left: -1290px;
+    margin-left: -1490px;
     z-index: 100;
 }
 
@@ -217,7 +215,7 @@ a:-webkit-any-link {
 .info {
     margin-left: 810px;
     margin-top: -130px;
-    margin-bottom: 70px;
+    margin-bottom: 90px;
     position: relative;
 }
 
