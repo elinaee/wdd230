@@ -92,6 +92,8 @@ footer p {
 
 #time {
     margin-bottom: -50px;
+    margin-left: -100px;
+    z-index: 100;
 }
 
 .logo-box img, .logo-footer img {
@@ -211,7 +213,7 @@ a:-webkit-any-link {
 }
 
 .info {
-    margin-left: 900px;
+    margin-left: 800px;
     margin-top: -90px;
     margin-bottom: 50px;
     position: relative;
