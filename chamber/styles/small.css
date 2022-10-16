@@ -21,6 +21,7 @@ main,
 footer {
 	max-width: 90%;
 	margin: 0 auto;
+    height: auto;
 }
 
 h1 {
@@ -79,6 +80,7 @@ footer p {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+    margin-bottom: -9px;
 }
 
 .logo-box img, .logo-footer img {
