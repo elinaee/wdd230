@@ -11,7 +11,7 @@ footer {
 	flex-flow: column;
 	align-items: center;
 	justify-content: space-between;
-	padding: .75rem;
+	padding: 0;
 	border: 1px solid #f4f3f3;
 	color: white;
 }
@@ -103,6 +103,7 @@ footer p {
     margin-bottom: 1.6rem;
     position: relative;
     text-align: center;
+    line-height: 28px;
 }
 
 .event, .weather, .news, .join, .spotlights {
