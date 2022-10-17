@@ -37,6 +37,18 @@ h2 {
 	font-family: Cambria, 'Times New Roman', serif;
 }
 
+div#message {
+    background-color: black;
+}
+
+div.show {
+    display: block;
+}
+
+div.hide {
+    display: none;
+}
+
 nav {
 	margin: 0 auto;
 	max-width: max-content;

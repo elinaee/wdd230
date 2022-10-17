@@ -37,14 +37,13 @@ function toggleMenu(){
 
 
 ////   Banner   ////
+const day = new Date();
+const currentDay = day.getDay();
 
-time.id = "banner";
-
-const banner = document.querySelector("#banner");
-const currentDay = now.getDay();
-
-if (currentDay === 1 || currentDay === 2) {
-  banner.textContent =
-    "🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.";
+const element = document.getElementById("message");
+if (currentDay == 1 || currentDay == 2) {
+  element.classList.add("show");
 }
-
+else {
+  element.classList.add("hide");
+}
