@@ -3,11 +3,8 @@ const input = document.querySelector('input');
 const button = document.query.Selector('button');
 
 button.addEventListener('click', function() {
-    if (input.value.length === 0) {
-        alert("Please add a chapter from the Book of Mormon");
-        
-    } else {
     let myItem = input.value;
+    input.value = "";
 
     const listItem = document.createElement("li");
     const listText = document.createElement("span");
@@ -17,15 +14,11 @@ button.addEventListener('click', function() {
     listText.textContent = myItem;
     listItem.appendChild(listBtn);
     listBtn.textContent = "❌";
-
     list.appendChild(listItem);
 
-    input.value = "";
 
     listBtn.addEventListener("click", function () {
         list.removeChild(listItem);
     });
-    }
     input.focus();
-}
-)
+});
