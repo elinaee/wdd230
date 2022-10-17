@@ -28,34 +28,11 @@ datefieldUK.innerHTML = `<em>${fulldateUK}</em>`;
 
 // For the Hamburger menu //
 
-const header = document.querySelector("header");
-
-const hambutton = document.querySelector('.hamburgerBtn');
-const mainnav = document.querySelector('.navigation')
-
-hambutton.addEventListener('click', () => {mainnav.classList.toggle('responsive')}, false);
-
-
-//// or ////
-
-const menuBtn = document.querySelector(".hamburgerBtn");
-const navList = document.querySelector(".navigation-list");
-function toggleClose() {
-  menuBtn.classList.toggle("change");
-  navList.classList.toggle("show-list");
-}
-menuBtn.addEventListener("click", toggleClose);
-
-
-///// or /////
 
 function toggleMenu(){
-    document.getElementById("navList").classList.toggle("open");
-    document.getElementById("hamburgerBtn").classList.toggle("open");
+    document.getElementById("navList").classList.toggle("hide");
 }
 
-const x = document.getElementById("hamburgerBtn");
-x.onclick = toggleMenu;
 
 
 

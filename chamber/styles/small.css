@@ -37,23 +37,16 @@ h2 {
 	font-family: Cambria, 'Times New Roman', serif;
 }
 
-#hamburgerBtn {
-    margin: .2rem 0.5vw;
-    background: transparent;
-    color: white;
-    border: none;
-    font-size: 2rem;
-}
-
 nav {
 	margin: 0 auto;
 	max-width: max-content;
     position: relative;
 }
+
 nav ul {
 	list-style-type: none;
-	overflow: hidden;
 }
+
 nav ul li a {
 	display: block;
 	color: white;
@@ -62,10 +55,17 @@ nav ul li a {
 	text-decoration: none;
     border-top: 1px solid rgba(255, 255, 255, 0.5);
 	font-size: 13px;
-	cursor: pointer;
-    margin-left: 500px;
-    position: absolute;
-    margin-top: -13px;
+    /* margin-left: 500px; */
+    /* position: absolute; */
+}
+
+nav button {
+    background-color: #b6b6b6;
+    margin: auto; 
+}
+
+nav ul.hide {
+    display: none;
 }
 
 .date {
@@ -229,11 +229,19 @@ button span {
 
 .social {
     text-align: center;
-    display: flexbox;
+    display: flex;
     margin-right: -1700px;
     margin-top: -150px;
 }  
 
 .show-list {
     display: block;
+}
+
+/* Clearfix: force an element not to collapse */
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
 }
