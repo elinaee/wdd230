@@ -199,6 +199,8 @@ a:-webkit-any-link {
 
 .spotlights section {
     border: 1px solid #b6b6b6;
+    line-height: 71.3px;
+
 }
 
 .logo-title {
@@ -245,7 +247,7 @@ button span {
 
 .social {
     text-align: center;
-    display: flex;
+    display: block;
     margin-right: -1700px;
     margin-top: -150px;
 }  
