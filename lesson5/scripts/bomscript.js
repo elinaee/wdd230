@@ -1,6 +1,6 @@
 const list = document.querySelector('ul');
 const input = document.querySelector('input');
-const button = document.query.Selector('button');
+const button = document.querySelector('button');
 
 button.addEventListener('click', function() {
     const myItem = input.value;
