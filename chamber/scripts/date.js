@@ -46,4 +46,4 @@ if (currentDay == 1 || currentDay == 2) {
 }
 else {
   element.classList.add("hide");
-}
+} 
