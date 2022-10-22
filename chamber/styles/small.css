@@ -112,6 +112,11 @@ footer p {
     z-index: 100;
 }
 
+#lastMod {
+    margin-bottom: -175px;
+    margin-left: -510px; 
+}
+
 .logo-box img, .logo-footer img {
     border: 1px solid #ddd;
     border-radius: 80px;
