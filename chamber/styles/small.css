@@ -40,7 +40,7 @@ h2 {
 div#message {
     background-color: white;
     color: black;
-    width: 100%;
+    width: 150%;
     text-align: center;
     line-height: 30px;
 }
@@ -71,6 +71,7 @@ nav ul li a {
 	text-decoration: none;
     border-top: 1px solid rgba(255, 255, 255, 0.5);
 	font-size: 13px;
+    text-emphasis-style: bold;
     /* margin-left: 500px; */
     /* position: absolute; */
 }
@@ -86,9 +87,8 @@ nav ul.hide {
 
 .date {
     font-size: 15px;
-    background-color: rgb(92, 89, 89);
-    position: absolute;
-    z-index: 100;
+    background-color: black;
+    color: white;
 }
 
 main {
