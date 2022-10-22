@@ -14,12 +14,12 @@ footer {
 	padding: 0;
 	border: 1px solid #f4f3f3;
 	color: white;
+    max-width: 92%;
 }
 
 header,
 main,
 footer {
-	max-width: 90%;
 	margin: 0 auto;
     height: auto;
     position: relative;
@@ -40,7 +40,7 @@ h2 {
 div#message {
     background-color: white;
     color: black;
-    width: 200%;
+    width: 100%;
     text-align: center;
     line-height: 30px;
 }
@@ -56,7 +56,7 @@ div.hide {
 nav {
 	margin: 0 auto;
 	max-width: max-content;
-    position: relative;
+    justify-items: center;
 }
 
 nav ul {
@@ -96,6 +96,7 @@ main {
 	grid-template-columns: 1fr;
 	font-size: 14px;
     margin-top: 25px;
+    max-width: 88%;
 }
 
 footer p {
