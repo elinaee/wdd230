@@ -34,7 +34,7 @@ footer {
     flex-grow: 1;
     align-items: center;
     margin-top: 80px;
-    margin-left: -1400px;
+    margin-left: -1460px;
 }
 
 .chamber-name {
@@ -89,7 +89,7 @@ div#message {
     width: 96%;
     text-align: center;
     line-height: 30px;
-    margin-top: -300px;
+    margin-top: -280px;
 }
 
 div.show {
