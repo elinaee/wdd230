@@ -217,18 +217,17 @@ footer p {
 	flex-direction: row;
 	align-items: center;
     margin-left: -50px;
-    margin-bottom: -70px;
+    margin-bottom: -120px;
 }
 
-#time {
-    margin-left: -300px;
-    z-index: 100;
+p#time {
     font-size: 12px;
 }
 
-#lastMod {
+span#lastMod {
     margin-left: 0px; 
     font-size: 12px;
+    margin-bottom: 12px;
 }
 
 .logo-box img, .logo-footer img {
