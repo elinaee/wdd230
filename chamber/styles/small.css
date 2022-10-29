@@ -204,7 +204,8 @@ button span {
 
 .spotlights section {
     border: 1px solid #999999;
-    line-height: 71.3px;
+    line-height: 57.9px;
+    padding: 4px;
 
 }
 
