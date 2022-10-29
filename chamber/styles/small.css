@@ -216,18 +216,18 @@ footer p {
 	display: flex;
 	flex-direction: row;
 	align-items: center;
+    margin-left: -50px;
+    margin-bottom: -70px;
 }
 
 #time {
-    margin-bottom: -150px;
-    margin-left: -900px;
+    margin-left: -300px;
     z-index: 100;
     font-size: 12px;
 }
 
 #lastMod {
-    margin-bottom: -175px;
-    margin-left: -200px; 
+    margin-left: 0px; 
     font-size: 12px;
 }
 
