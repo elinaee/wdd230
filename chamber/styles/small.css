@@ -206,7 +206,7 @@ button span {
 
 /* -------------FOOTER-------------- */
 .date {
-    font-size: 15px;
+    font-size: 12px;
     background-color: black;
     color: white;
 }
@@ -235,7 +235,7 @@ footer p {
     border: 1px solid #ddd;
     border-radius: 80px;
     padding: 5px;
-    width: 170px;
+    width: 150px;
     height: auto;
 	box-shadow: 0 0 30px rgb(92, 89, 89);
     align-items: center;
