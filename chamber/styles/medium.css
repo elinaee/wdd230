@@ -85,6 +85,10 @@
 		grid-area: join;
 	}
 
+	.degree p.temperature {
+		font-size: 28px;
+	}
+
 
 	/* -------------FOOTER-------------- */
 	footer p {

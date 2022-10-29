@@ -112,6 +112,15 @@
 		grid-row: 3/4;
 	}
 
+	.degree img {
+		float: left;
+		margin-top: -35px;
+	}
+
+	.degree p.temperature {
+		font-size: 34px;
+	}
+
 
 	/* -------------FOOTER-------------- */
 	footer {

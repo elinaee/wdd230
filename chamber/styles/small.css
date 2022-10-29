@@ -175,6 +175,9 @@ button span {
     font-size: 18px;
 }
 
+.degree p.temperature {
+    font-size: 21px;
+}
 
 /* -------Here starts the .hero box------- */
 .hero h3 {
