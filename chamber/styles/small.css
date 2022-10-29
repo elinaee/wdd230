@@ -34,7 +34,7 @@ footer {
     flex-grow: 1;
     align-items: center;
     margin-top: 80px;
-    margin-left: -1000px;
+    margin-left: -1400px;
 }
 
 .chamber-name {
@@ -146,72 +146,6 @@ button span {
 }
 
 
-/* -------------FOOTER-------------- */
-.date {
-    font-size: 15px;
-    background-color: black;
-    color: white;
-}
-
-footer p {
-	padding: .5rem;
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-}
-
-#time {
-    margin-bottom: -150px;
-    margin-left: -1490px;
-    z-index: 100;
-}
-
-#lastMod {
-    margin-bottom: -175px;
-    margin-left: -200px; 
-}
-
-.logo-box img, .logo-footer img {
-    border: 1px solid #ddd;
-    border-radius: 80px;
-    padding: 5px;
-    width: 170px;
-    height: auto;
-	box-shadow: 0 0 30px rgb(92, 89, 89);
-    align-items: center;
-    display: flex;
-    flex-direction: row;
-    gap: 0.8rem;
-    margin-bottom: 1.6rem;
-    margin-left: 200px;
-    margin-top: 15px;
-}
-
-.logo-footer {
-    align-items: center;
-    text-align: center;
-    display: flex;
-    flex-direction: row;
-    margin-left: -130px;
-}
-
-.canton {
-    margin-left: 40px;
-}
-
-.chamber {
-    margin-top: 110px;
-    margin-left: -100px;
-}
-
-.info {
-    margin-left: 860px;
-    margin-top: -130px;
-    margin-bottom: 90px;
-    position: relative;
-}
-
-
 /* -------SECTIONS - HOME PAGE------- */
 .hero, .event, .weather, .news, .join {
     border: 1px solid #999999;
@@ -268,8 +202,75 @@ footer p {
     line-height: 71.3px;
 
 }
-/* --------------------------------- */  
 
+
+/* -------------FOOTER-------------- */
+.date {
+    font-size: 15px;
+    background-color: black;
+    color: white;
+}
+
+footer p {
+	padding: .5rem;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+#time {
+    margin-bottom: -150px;
+    margin-left: -900px;
+    z-index: 100;
+    font-size: 12px;
+}
+
+#lastMod {
+    margin-bottom: -175px;
+    margin-left: -200px; 
+    font-size: 12px;
+}
+
+.logo-box img, .logo-footer img {
+    border: 1px solid #ddd;
+    border-radius: 80px;
+    padding: 5px;
+    width: 170px;
+    height: auto;
+	box-shadow: 0 0 30px rgb(92, 89, 89);
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 0.8rem;
+    margin-bottom: 1.6rem;
+    margin-left: 200px;
+    margin-top: 15px;
+}
+
+.logo-footer {
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    margin-left: -130px;
+}
+
+.canton {
+    margin-left: 40px;
+}
+
+.chamber {
+    margin-top: 110px;
+    margin-left: -100px;
+}
+
+.info {
+    margin-left: 860px;
+    margin-top: -130px;
+    margin-bottom: 90px;
+    position: relative;
+}
+/* --------------------------------- */  
 
 .show-list {
     display: block;
