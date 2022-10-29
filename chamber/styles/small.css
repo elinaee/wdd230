@@ -4,6 +4,8 @@ body {
     background:  #f4f3f3;
 }
 
+
+/* -------------HEADER AND MAIN---------------*/
 header,
 footer {
 	background-color: #999999;
@@ -25,7 +27,38 @@ footer {
     position: relative;
     z-index: 1;
 }
- 
+
+.logo-title {
+    display: flex;
+    min-height: 0 !important;
+    flex-grow: 1;
+    align-items: center;
+    margin-top: 80px;
+    margin-left: -2900px;
+}
+
+.chamber-name {
+    text-align: center;
+    margin-left: 30px;
+}
+
+.social {
+    text-align: center;
+    display: block;
+    margin-right: ;
+    margin-top: ;
+}
+
+main {
+	display: grid;
+	grid-template-columns: 1fr;
+	font-size: 14px;
+    margin-top: 25px;
+    max-width: 88%;
+}
+
+
+/* ---------------HEADINGS---------------- */
 h1 {
 	font-size: 17px;
     color: white;
@@ -37,12 +70,26 @@ h2 {
 	font-family: Cambria, 'Times New Roman', serif;
 }
 
+h3 {
+    display: block;
+    font-size: 26px;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    color: rgb(73, 73, 73);
+}
+
+
+/* --------------BANNER MESSAGE-------------- */
 div#message {
     background-color: white;
     color: black;
-    width: 160%;
+    width: 100%;
     text-align: center;
     line-height: 30px;
+    margin-top: -300px;
 }
 
 div.show {
@@ -53,6 +100,8 @@ div.hide {
     display: none;
 }
 
+
+/* -------------NAVIGATION-------------- */
 nav {
 	margin: 0 auto;
 	max-width: max-content;
@@ -71,7 +120,7 @@ nav ul li a {
 	text-decoration: none;
     border-top: 1px solid rgba(255, 255, 255, 0.5);
 	font-size: 13px;
-    text-emphasis-style: bold;
+    margin-top: 100px;
     /* margin-left: 500px; */
     /* position: absolute; */
 }
@@ -85,18 +134,25 @@ nav ul.hide {
     display: none;
 }
 
+a:-webkit-any-link {
+    color: white;
+    cursor: pointer;
+}
+
+button {
+    cursor: pointer;
+}
+
+button span {
+    display: block;
+}
+
+
+/* -------------FOOTER-------------- */
 .date {
     font-size: 15px;
     background-color: black;
     color: white;
-}
-
-main {
-	display: grid;
-	grid-template-columns: 1fr;
-	font-size: 14px;
-    margin-top: 25px;
-    max-width: 88%;
 }
 
 footer p {
@@ -133,10 +189,32 @@ footer p {
     margin-top: 15px;
 }
 
-.chamber-name {
+.logo-footer {
+    align-items: center;
     text-align: center;
+    display: flex;
+    flex-direction: row;
+    margin-left: -130px;
 }
 
+.canton {
+    margin-left: 40px;
+}
+
+.chamber {
+    margin-top: 110px;
+    margin-left: -100px;
+}
+
+.info {
+    margin-left: 860px;
+    margin-top: -130px;
+    margin-bottom: 90px;
+    position: relative;
+}
+
+
+/* -------SECTIONS - HOME PAGE------- */
 .hero, .event, .weather, .news, .join {
     border: 1px solid #999999;
     margin-bottom: 1.6rem;
@@ -154,18 +232,8 @@ footer p {
     font-size: 18px;
 }
 
-h3 {
-    display: block;
-    font-size: 26px;
-    margin-block-start: 0.83em;
-    margin-block-end: 0.83em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    font-weight: bold;
-    color: rgb(73, 73, 73);
-}
 
-/* Here starts the .hero box */
+/* -------Here starts the .hero box------- */
 .hero h3 {
     position: absolute;
     top: 20px;
@@ -193,12 +261,6 @@ h3 {
     opacity: 0.95;
 }
 
-
-a:-webkit-any-link {
-    color: white;
-    cursor: pointer;
-}
-
 .spotlights section:last-child {
     display: none;
 }
@@ -208,55 +270,8 @@ a:-webkit-any-link {
     line-height: 71.3px;
 
 }
+/* --------------------------------- */  
 
-.logo-title {
-    min-height: 0 !important;
-    flex-grow: 1;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
-
-}
-
-.logo-footer {
-    align-items: center;
-    text-align: center;
-    display: flex;
-    flex-direction: row;
-    margin-left: -130px;
-}
-
-.canton {
-    margin-left: 40px;
-}
-
-.chamber {
-    margin-top: 110px;
-    margin-left: -100px;
-}
-
-.info {
-    margin-left: 860px;
-    margin-top: -130px;
-    margin-bottom: 90px;
-    position: relative;
-}
-
-button {
-    cursor: pointer;
-}
-
-button span {
-    display: block;
-}
-
-.social {
-    text-align: center;
-    display: block;
-    margin-right: -1700px;
-    margin-top: -150px;
-}  
 
 .show-list {
     display: block;
