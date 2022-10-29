@@ -186,6 +186,7 @@ button span {
     left: 20px;
     margin: 0;
     font-size: 29px;
+    color: white;
 }
 
 .hero img {
@@ -194,8 +195,8 @@ button span {
 }
 
 .joinus {
-    background-color: #b6b6b6;
-    color: rgb(92, 89, 89);
+    background-color: rgb(92, 89, 89);
+    color: white;
     text-decoration: none;
     font-size: 18px;
     padding: 15px 30px;
