@@ -222,6 +222,7 @@ footer p {
 
 p#time {
     font-size: 12px;
+    margin-left: 120px;
 }
 
 span#lastMod {
