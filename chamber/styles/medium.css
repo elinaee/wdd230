@@ -1,5 +1,7 @@
 /* Tablet Views ******************************/
 @media only screen and (min-width: 37.5em) {
+	
+	/* ---------------HEADINGS---------------- */
 	h1 {
 		font-size: 21px;
 	}
@@ -8,8 +10,13 @@
         font-size: 18px;
     }
 
-	/* Flex *********************/ 
+	h3 {
+		font-size: 16px;
+	}
 
+	/********************** Flex *********************/ 
+
+	/* -------------NAVIGATION-------------- */
 	nav ul li {
         flex: 1 1 auto;
     }
@@ -20,19 +27,13 @@
 
 	nav a:hover {
 		/* 	background-color: #bbb;
-	color: #36454f; */
+		color: #36454f; */
 		--d: 75%;
 	}
 
-	main {
-		grid-template-columns: 1fr;
-        font-size: 17px;
-	}
 	
-	footer p {
-		flex-direction: row;
-	}
-
+	
+	/* -------------HEADER AND MAIN---------------*/
 	.chamber-name {
 		display: flex;
 		flex-direction: column;
@@ -43,6 +44,8 @@
 	}
 
 	main {
+		grid-template-columns: 1fr;
+        font-size: 17px;
 		display: grid;
 		gap: 1.6rem;
 		grid-template-areas:
@@ -53,31 +56,39 @@
 		  "event event   event   weather";
 	}
 
+
+	/* -------SECTIONS - HOME PAGE------- */
 	.hero {
 		grid-area: hero;
 	  }
 	
-	  .event {
+	.event {
 		grid-area: event;
-	  }
+	}
 	
-	  .weather {
+	.weather {
 		grid-area: weather;
-	  }
+	}
 	
-	  .news {
+	.news {
 		grid-area: news;
-	  }
+	}
 	
-	  .spotlights {
+	.spotlights {
 		grid-area: spotlights;
 		display: flex;
 		gap: 1.6rem;
-	  }
+	}
 	
-	  .join {
+	.join {
 		display: block;
 		grid-area: join;
-	  }
+	}
+
+
+	/* -------------FOOTER-------------- */
+	footer p {
+		flex-direction: row;
+	}
 
 }
