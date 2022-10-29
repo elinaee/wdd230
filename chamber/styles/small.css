@@ -34,7 +34,7 @@ footer {
     flex-grow: 1;
     align-items: center;
     margin-top: 80px;
-    margin-left: -2600px;
+    margin-left: -1900px;
 }
 
 .chamber-name {
@@ -86,7 +86,7 @@ h3 {
 div#message {
     background-color: white;
     color: black;
-    width: 92%;
+    width: 94%;
     text-align: center;
     line-height: 30px;
     margin-top: -300px;
@@ -109,7 +109,7 @@ nav {
 
 nav ul {
 	list-style-type: none;
-    margin-left: -1800px;
+    margin-left: -1000px;
 }
 
 nav ul li a {
