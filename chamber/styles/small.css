@@ -33,13 +33,14 @@ footer {
     min-height: 0 !important;
     flex-grow: 1;
     align-items: center;
-    margin-top: 80px;
+    margin-top: 160px;
     margin-left: -1560px;
 }
 
 .chamber-name {
     text-align: center;
     margin-left: 30px;
+    margin-top: -70px;
 }
 
 .social {
@@ -93,8 +94,8 @@ div#message {
     color: black;
     width: 100%;
     text-align: center;
-    line-height: 30px;
-    margin-top: -220px;
+    line-height: 25px;
+    margin-top: -210px;
 }
 
 div.show {
@@ -249,7 +250,7 @@ span#lastMod {
     flex-direction: row;
     gap: 0.8rem;
     margin-left: 200px;
-    margin-top: -10px;
+    margin-top: -115px;
 }
 
 .logo-footer {
@@ -262,7 +263,7 @@ span#lastMod {
 
 .logo-footer img {
     width: 100px;
-    margin-top: 40px;
+    margin-top: 20px;
 }
 
 .canton {
