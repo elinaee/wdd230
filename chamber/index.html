@@ -83,14 +83,13 @@
             <h3>Weather</h3>
             <div class="degree">
                 <img src="../chamber/images/sunny.png" alt="image of a sun">
-                <p class="temperature"><b>20°C</b></p>
+                <p><span class="temperature"></span><b>20°C</b></p>
                 <br>
             </div>
             <h3 class="description"><em>Sunny with a clear sky</em></h3>
-            <p>
-               Wind Speed: 10.5km/h<br>
-               Wind Chill: N/A
-            </p>
+           
+            <p>Wind Speed: <span class="speed"></span> 10.5km/h</p>
+            <p>Wind Chill: <span class="wind"></span>N/A</p>
         </div>
 
         <div class="news">
@@ -178,6 +177,7 @@
         <p><span id="lastMod"></span></p>
     
         <script src="../chamber/scripts/date.js"></script>
+        <script src="../chamber/scripts/windchill.js"></script>
         <br>
 
     </footer>
