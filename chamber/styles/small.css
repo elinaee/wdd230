@@ -306,3 +306,22 @@ span#lastMod {
     display: table;
     clear: both;
 }
+
+
+
+/***************************** DISCOVER PAGE ********************/
+
+.row1, .row2, .row3, .row4, .row5 {
+    border-style: 2px solid  rgb(92, 89, 89);
+    align-items: center;
+    margin-left: 250px;
+}
+}
+
+figures img {
+    display: block;
+}
+
+.column {
+    margin-bottom: -2130px;
+}
