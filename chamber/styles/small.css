@@ -311,9 +311,15 @@ span#lastMod {
 
 /***************************** DISCOVER PAGE ********************/
 
+/* ----------------MAIN--------------- */
+.discover {
+    display: block;
+}
+
+/* ----------SECTIONS/ IMAGES--------- */
 .row1, .row2, .row3, .row4, .row5 {
     align-items: center;
-    margin-left: 250px;
+    margin-left: 50px;
 }
 
 figures img {
@@ -321,5 +327,21 @@ figures img {
 }
 
 .column {
-    margin-bottom: -2130px;
+    margin-bottom: 0px;
+}
+
+section.location, section.origin {
+align-items: center;
+display: block;
+width: 300px;
+background-color: #999999;
+margin: auto;
+padding: 10px;
+margin-top: 25px;
+border: 2px solid rgb(73, 73, 73);
+border-radius: 10px;
+}
+
+section.location p, section.origin p {
+    color: white;
 }
