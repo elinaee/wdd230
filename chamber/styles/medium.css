@@ -1,46 +1,27 @@
 /* Tablet Views ******************************/
 @media only screen and (min-width: 37.5em) {
 	
-	/* ---------------HEADINGS---------------- */
-	h1 {
-		font-size: 21px;
-	}
-
-    h2 {
-        font-size: 18px;
-    }
-
-	h3 {
-		font-size: 16px;
-	}
-
-	/********************** Flex *********************/ 
-
-	/* -------------NAVIGATION-------------- */
-	nav ul li {
-        flex: 1 1 auto;
-    }
- 
-	nav a {
-		font-size: 15px;
-	}
-
-	nav a:hover {
-		/* 	background-color: #bbb;
-		color: #36454f; */
-		--d: 75%;
-	}
-
-	
-	
 	/* -------------HEADER AND MAIN---------------*/
+	
+	.logo-title {
+		margin-top: 150px;
+		margin-left: -560px;
+	}
+	
 	.chamber-name {
-		display: flex;
-		flex-direction: column;
+		margin-left: 10px;
+		margin-top: -70px;
+		line-height: 14px;
 	}
 
 	.social {
-		margin-left: 0px;
+		margin-right: 10px;
+		margin-top: 0px;
+	}
+	
+	.social img {
+		width: 35px;
+		border-radius: 80px;
 	}
 
 	main {
@@ -54,6 +35,64 @@
 		  "spotlights  spotlights  spotlights spotlights"
 		  "join    join    join     join"
 		  "event event   event   weather";
+	}
+
+	/* ---------------HEADINGS---------------- */
+	h1 {
+		font-size: 21px;
+	}
+
+    h2 {
+        font-size: 18px;
+    }
+
+	h3 {
+		font-size: 16px;
+	}
+
+	/* -------------BANNER------------------ */
+	div#message {
+		width: 100%;
+		line-height: 22px;
+		margin-top: -155px;
+	}
+
+	/********************** Flex *********************/ 
+
+	/* -------------NAVIGATION-------------- */
+	nav ul {
+		list-style-type: none;
+		margin-left: -900px;
+	}
+	
+	nav ul li a {
+		display: block;
+		color: white;
+		text-align: center;
+		padding: 0.75rem;
+		text-decoration: none;
+		border-top: 1px solid rgba(255, 255, 255, 0.5);
+		font-size: 13px;
+		margin-top: 150px;
+	}
+	
+	nav button {
+		background-color: #b6b6b6;
+		margin: auto; 
+	}
+	
+	nav ul li {
+        flex: 1 1 auto;
+    }
+ 
+	nav a {
+		font-size: 15px;
+	}
+
+	nav a:hover {
+		/* 	background-color: #bbb;
+		color: #36454f; */
+		--d: 75%;
 	}
 
 
@@ -91,8 +130,64 @@
 
 
 	/* -------------FOOTER-------------- */
-	footer p {
-		flex-direction: row;
+
+	.logo-box img, .logo-footer img {
+		width: 110px;
+		height: auto;
+		margin-top: -115px;
 	}
+
+	.logo-footer {
+		margin-left: 130px;
+	}
+
+	.logo-footer img {
+		width: 80px;
+		margin-top: 10px;
+	}
+
+	.canton {
+		margin-left: 40px;
+		font-size: 15px;
+	}
+	
+	.chamber {
+		margin-top: 40px;
+		margin-left: -70px;
+		font-size: 13px;
+	}
+
+	.info {
+		margin-left: 240px;
+		margin-bottom: 30px;
+		font-size: 12px;
+	}
+
+	p#time {
+		font-size: 11px;
+		margin-left: -400px;
+		margin-bottom: -135px;
+	}
+	
+	span#lastMod {
+		margin-left: -40px; 
+		font-size: 11px;
+		margin-top: 0px;
+		margin-bottom: -50px;
+	}
+
+	/***************************** DISCOVER PAGE ********************/
+
+	picture img {
+		width: 400px; 
+	}
+
+	picture img.map {
+		width: 300px;
+	}
+
+	section.location, section.origin {
+		width: 300px;
+		}
 
 }

@@ -1,6 +1,30 @@
 /* Desktop Views ****************************/
 @media only screen and (min-width: 60em) {
 	
+	/* -------------HEADER AND MAIN---------------*/
+	.logo-title {
+		margin-top: 160px;
+		margin-left: -1560px;
+	}
+	
+	.chamber-name {
+		margin-left: 30px;
+		margin-top: -70px;
+		line-height: 15px;
+	}
+	
+	.social {
+		text-align: center;
+		display: block;
+		margin-right: 15px;
+		margin-top: 0px;
+	}
+	
+	.social img {
+		width: 50px;
+		border-radius: 80px;
+	}
+
 	/* ---------------HEADINGS---------------- */
 	h1 {
 		font-size: 28px;
@@ -17,10 +41,19 @@
 	p {
         font-size: 17px;
     }
-	
+
+	/* -------------BANNER------------------ */
+	div#message {
+		line-height: 22px;
+		margin-top: -155px;
+	}
+
+
 	/* -------------NAVIGATION-------------- */
 	nav ul { 
-		width: 700px;
+		width: 600px;
+		list-style-type: none;
+		margin-left: -900px;
     }
 
 	nav a {
@@ -28,6 +61,14 @@
 	}
 
 	nav ul li a {
+		display: block;
+		color: white;
+		text-align: center;
+		padding: 0.75rem;
+		text-decoration: none;
+		border-top: 1px solid rgba(255, 255, 255, 0.5);
+		font-size: 13px;
+		margin-top: 150px;
 		background: linear-gradient(90deg, transparent, white, transparent) bottom /
 		var(--d, 0) 3px no-repeat;
 	transition: 0.5s;
@@ -126,4 +167,67 @@
 	footer {
 		border-radius: 30px 30px 0 0;
 	}
+
+	.logo-box img, .logo-footer img {
+		width: 150px;
+		height: auto;
+		gap: 0.8rem;
+		margin-left: 200px;
+		margin-top: -115px;
+	}
+
+	.logo-footer img {
+		width: 100px;
+		margin-top: 20px;
+	}
+
+	.info {
+		margin-left: 860px;
+		margin-top: -90px;
+		margin-bottom: 75px;
+		position: relative;
+	}
+
+	.date {
+		font-size: 12px;
+		background-color: black;
+		color: white;
+	}
+	
+	footer p {
+		padding: .5rem;
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		margin-left: -50px;
+		margin-bottom: -120px;
+	}
+	
+	p#time {
+		font-size: 12px;
+		margin-left: -370px;
+	}
+	
+	span#lastMod {
+		margin-left: 0px; 
+		font-size: 12px;
+		margin-bottom: 12px;
+	}
+
+	/***************************** DISCOVER PAGE ********************/
+
+	/* ----------SECTIONS/ IMAGES--------- */
+	picture img {
+		width: 600px; 
+	}
+
+	picture img.map {
+		width: 450px;
+	}
+
+	section.location, section.origin {
+		width: 450px;
+		}
+
+	
 }
