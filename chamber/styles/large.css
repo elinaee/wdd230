@@ -233,6 +233,11 @@
 	/******************************* JOIN PAGE *************************/
 
 	/* ------------MAIN------------- */
+	main.formpage {
+		padding: 3rem 0 0 19rem;
+		height: 1380px;
+	}
+	
 	form input.radioBtn {
 		padding: .4rem 0 ;
 	}

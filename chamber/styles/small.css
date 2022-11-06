@@ -370,10 +370,6 @@ section.location p, section.origin p {
 
 
 /* -------------MAIN------------ */
-main.formpage {
-    padding: 3rem 0 0 19rem;
-    height: 1380px;
-}
 
 fieldset.container {
     border: dotted;
