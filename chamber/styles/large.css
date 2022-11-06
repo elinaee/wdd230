@@ -227,7 +227,13 @@
 
 	section.location, section.origin {
 		width: 450px;
-		}
+	}
 
-	
+
+	/******************************* JOIN PAGE *************************/
+
+	/* ------------MAIN------------- */
+	form input.radioBtn {
+		padding: .4rem 0 ;
+	}
 }
