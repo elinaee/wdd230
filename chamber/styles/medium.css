@@ -193,4 +193,23 @@
 
 	/******************************* JOIN PAGE *************************/
 
+
+	/*************************** DIRECTORY PAGE *************************/
+
+	/* -------------MAIN------------ */
+
+	.menuDirectory {
+    	margin: 1rem auto;
+		border: 1px solid rgba(0, 0, 0, 0.1);
+		padding: 0.5rem;
+	}
+
+	.menuDirectory button {
+    	padding: 1rem;
+	} 
+
+	.imgDirectory {
+    	height: 135px;
+    	max-width: 100%;
+	}
 }
