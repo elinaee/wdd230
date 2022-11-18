@@ -463,8 +463,11 @@ div.submitBtn input {
 
 /* ------------THANK YOU PAGE------------ */
 .thanks {
-    align-items: center;
-    justify-content: center;
+    padding: 1rem;
+    font-weight: bold;
+    text-align: center;
+    margin: auto;
+
 }
 
 
