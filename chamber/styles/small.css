@@ -103,14 +103,6 @@ div#message {
     margin-top: -150px;
 }
 
-div.show {
-    display: block;
-}
-
-div.hide {
-    display: none;
-}
-
 
 /* -------------NAVIGATION-------------- */
 nav {
@@ -131,7 +123,6 @@ nav ul li a {
 	text-decoration: none;
     border-top: 1px solid rgba(255, 255, 255, 0.5);
 	font-size: 13px;
-    margin-top: 150px;
 }
 
 nav button {
