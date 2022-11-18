@@ -461,6 +461,12 @@ div.submitBtn input {
     color: red; 
 }
 
+/* ------------THANK YOU PAGE------------ */
+.thanks {
+    align-items: center;
+    justify-content: center;
+}
+
 
 /*************************** DIRECTORY PAGE *************************/
 
