@@ -215,6 +215,10 @@ button span {
 
 }
 
+.news button {
+    background-color: rgba(136, 136, 136, 0.527);
+}
+
 
 /* -------------FOOTER-------------- */
 .date {
