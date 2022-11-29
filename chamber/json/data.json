@@ -1,0 +1,95 @@
+{
+    "companies": [
+      {
+        "name": "Thankful Transport",
+        "address": "Aarau Strasse 7",
+        "contact": "+4130 000 44 66",
+        "url": "https://www.thankful-transport.com",
+        "logo": "../images/",
+        "membershipLevel": "Gold",
+        "slogan": "We get it there for you!",
+        "width": 267,
+        "height": 189
+      },
+      {
+        "name": "Code Codilo",
+        "address": "Kaiseraugst",
+        "contact": "+4152 144 11 77 ",
+        "url": "https://www.codecodilo.school.com",
+        "logo": "./image",
+        "membershipLevel": "Gold",
+        "width": 300,
+        "height": 168
+      },
+      {
+        "name": "Milano in Green",
+        "address": "Aarau",
+        "contact": "+4121 324 42 22",
+        "url": "https://www.milano-in-green.com/",
+        "logo": "./images/shell.webp",
+        "membershipLevel": "Gold",
+        "width": 300,
+        "height": 168
+      },
+      {
+        "name": "McDonald's",
+        "address": "Rheinfelden",
+        "contact": "+4162 246 45 66",
+        "url": "https://www.mcdonalds.com/ch/de-ch",
+        "logo": "./images/metrobank.webp",
+        "membershipLevel": "Silver",
+        "width": 373,
+        "height": 135
+      },
+      {
+        "name": "Restaurant Waldhaus Gehren",
+        "address": "Erlinsbach",
+        "contact": "+4135 830 02 30",
+        "url": "http://www.waldhausgehren.ch/",
+        "logo": "../chamber/images/restaurant",
+        "membershipLevel": "Bronze",
+        "width": 339,
+        "height": 149
+      },
+      {
+        "name": "Aarau Rohr",
+        "address": "Rohr ",
+        "contact": "+4188 913 51 18",
+        "url": "https://www.merbag.ch/de",
+        "logo": "./images/bdo.webp",
+        "membershipLevel": "Silver",
+        "width": 310,
+        "height": 163
+      },
+      {
+        "name": "Thomann Goldschmied GmbH",
+        "address": "Buchs",
+        "contact": "+4151 022 41 08",
+        "url": "https://www.thomann-gold.ch/",
+        "logo": "./images/manilawater.webp",
+        "membershipLevel": "Non-Profit",
+        "width": 284,
+        "height": 177
+      },
+      {
+        "name": "Amazon",
+        "address": "Lausen",
+        "contact": "+4120 425 61 98",
+        "url": "https://www.amazon.com",
+        "logo": "./images/nestle.webp",
+        "membershipLevel": "Silver",
+        "width": 225,
+        "height": 225
+      },
+      {
+        "name": "Mövenpick",
+        "address": "Dagmerselen",
+        "contact": "+4170 150 42 39",
+        "url": "https://www.froneri-shop.ch/de/",
+        "logo": "./images/cognizant.webp",
+        "membershipLevel": "Gold",
+        "width": 283,
+        "height": 178
+      }
+    ]
+  }
