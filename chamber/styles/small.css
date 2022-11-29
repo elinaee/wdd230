@@ -572,7 +572,8 @@ img {
 h1.contact-us {
     color: white;
     background-color: rgb(194, 194, 194);
-    margin-top: -70px;
+    margin-top: -60px;
+    margin-left: 25px;
     line-height: 20px;
     border-radius: 30px;
     width: 400px;
@@ -580,6 +581,18 @@ h1.contact-us {
     align-items: center;
     display: block;
     position: relative;
+    height: 600px;
+}
+
+div.contacts-page {
+    background-color: rgb(227, 227, 227);
+    width: 1340px;
+    border-radius: 10px;
+    margin-bottom: -200px;
+}
+
+div.contacts-page p {
+    
 }
 
 #cards{
@@ -722,7 +735,7 @@ h1.contact-us {
 }
 
 div.points-of-contact {
-    margin-left: -115px;
+    margin-left: -480px;
     width: 350px; 
     margin-top: 90px;
 }
@@ -740,4 +753,9 @@ div.points-of-contact {
 
 .nav{
     position: static;
+}
+
+/*-------Tickets Page-------*/
+h1.t-head {
+    color:  #888; 
 }

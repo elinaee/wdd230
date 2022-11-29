@@ -276,4 +276,11 @@
 	.imgDirectory {
     	max-width: 60%;
 	}
+
+	/*************************** CONTACTS PAGE *************************/
+
+	/*-----------HEADINGS---------*/
+	h1.contact-us {
+    	font-size: 35px;
+	}
 }
