@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Author" content="Elisabete Stahl" >
+    <meta name="description"
+      content="Weather API Test for Fairbanks, Alaska: Web Frontend Development at Brigham Young University - Idaho" >
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" >
+    <link rel="stylesheet" href="../lesson10/css/weather-api.css" >
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Roboto:ital,wght@1,300&display=swap">
+    <title>Weather API Test</title>
+</head>
+<body>
+    <div>
+        <header>
+          <h1>Weather API Activity</h1>
+        </header>
+        <main>
+          <p>The current temperature in Fairbanks, Alaska is <span id="current-temp"></span>&deg;F</p>
+          <p>The current minimum temperature is <span id="min"></span>&deg;F</p>
+          <p>The current maximum temperature is <span id="max"></span>&deg;F</p>
+          <h2>Current Condition</h2>
+          <img src="../chamber/images/sunny.png" alt="sunny">
+          <figure>
+            <img src="#" alt="" id="weather-icon">
+            <figcaption></figcaption>
+          </figure>
+          <h2>Current Wind Speed</h2>
+          <p><span id="wind-desc"></span> MPH</p>
+        </main>
+        <footer>
+          <p>&#169; 2022 | BYUI-Idaho | Elisabete Stahl</p>
+        </footer>
+      </div>
+    <script src="../lesson10/js/weatherapi.js"></script>
+</body>
+</html>  
