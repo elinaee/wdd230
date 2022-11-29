@@ -23,7 +23,7 @@ const fulldateUK = new Intl.DateTimeFormat("en-UK", {
 }).format(now);
 
 
-datefieldUK.innerHTML = `<em>${fulldateUK}</em>`;
+datefieldUK.innerHTML =`<em>${fulldateUK}</em>`;
 
 
 // For the Hamburger menu //
