@@ -576,7 +576,7 @@ h1.contact-us {
     margin-left: 25px;
     line-height: 20px;
     border-radius: 30px;
-    width: 400px;
+    width: 200px;
     padding: 20px;
     align-items: center;
     display: block;
@@ -587,27 +587,15 @@ h1.contact-us {
 div.contacts-page {
     background-color: rgb(227, 227, 227);
     border-radius: 10px;
-    margin-bottom: -300px;
-}
-
-div.contacts-page p {
-    font-weight: bold;
-    text-decoration: underline;
-	text-align: center;
-    margin-top: 110px;
-    background-color: rgb(194, 194, 194);
-    line-height: 50px;
 }
 
 #cards{
     display: block;
-    margin: 0 auto;
-    width: 800px;
+    margin-left: 80px;
     position: absolute;
 }
 #cards section{
     padding: 35px;
-    width: 80%;
     display: block;
     text-align: center;
     background-color:  white;  

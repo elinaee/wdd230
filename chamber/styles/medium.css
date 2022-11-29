@@ -203,12 +203,17 @@
 	}
 
 	/**************************CONTACTS PAGE******************************/
+	div.contacts-page {
+		width: 200px;
+	}
+	
 	#cards{ 
 		display: flex;
-		margin: 3em;
+		margin: 2em;
 	}
 	#cards section{
-		margin: 3em;
+		margin: 2em;
+		width: 160px;
 	}
 	.close{
 		right: 25px;
