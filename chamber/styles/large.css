@@ -293,7 +293,6 @@
 		display: block;
 		position: relative;
 		height: 600px;
-		}
     	font-size: 35px;
 	}
 
@@ -321,4 +320,5 @@
 		width: 800px;
 		margin-top: 120px;
 	}
+ 
 }
