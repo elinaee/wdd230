@@ -201,4 +201,32 @@
 	.imgDirectory {
     	max-width: 80%;
 	}
+
+	/**************************CONTACTS PAGE******************************/
+	#cards{ 
+		display: flex;
+		margin: 3em;
+	}
+	#cards section{
+		margin: 3em;
+	}
+	.close{
+		right: 25px;
+		top: 0;
+	}
+	
+	.form-content .cancelbtn {
+		width: auto;
+	}
+	.class{
+		flex-direction: row;
+		gap: 50px;
+	}
+	.label-flex{
+		width: 100%;
+	  }
+	  #spotlight section{
+		width: 100%;
+	  }
+
 }

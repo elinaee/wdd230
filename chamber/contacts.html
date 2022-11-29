@@ -52,12 +52,130 @@
           <li class="item-navigation" ><a href="discover.html"><b>Discover</b></a></li>
           <li class="item-navigation" ><a href="directory.html"><b>Directory</b></a></li>
           <li class="item-navigation" ><a href="join.html"><b>Join</b></a></li>
-          <li class="item-navigation" ><a href="index.html"><b>Contact</b></a></li>
+          <li class="item-navigation" ><a href="contacts.html"><b>Contact</b></a></li>
         </ul>
     </nav>
     <main>
-        <h1>Contact us Today</h1>
+
+        <h1 class="contact-us">Contact us Today!</h1>
+        <div id="cards">
+
+            <section>
+
+                <h2>I have a technical question</h2>
+                <p>If you're already a member, the fastest way to get help is through our support ticketing system</p>
+                <button onclick="document.getElementById('support').style.display='block'">Create a Support Ticket</button>
+            
+            </section>
+
+            <section>
+
+                <h2>I have a basic question</h2>
+                <p>Have a general question about how our site/services works?</p>
+                <button onclick="document.getElementById('form').style.display='block'">Complete a Form</button>
+            
+            </section>
+
+        </div>
+
+        <div id="support" class="support-form animate">
+
+            <form class="form-content" action="tickets.html" method="get">
+
+                <div class="text-container">
+
+                    <span onclick="document.getElementById('support').style.display='none'"
+                    class="close" title="Close Ticket">&times;</span>
+                    <h2>ACC Support Ticket</h2>
+                
+                </div>
+
+                <p class="comp-para">Fields with * are required</p>
+
+                <div class="container">
+
+                    <label class="info"><b>First Name*</b><input type="text" name="fname" placeholder="John" required></label>
+                    <label class="info"><b>Last Name*</b><input type="text" name="lname" placeholder="Doe" required></label>
+                    <label class="info"><b>Email*</b><input type="email" name="email" placeholder="johndoe@gmail.com" required></label>
+                    <label class="info"><b>Subject:</b><input type="text" name="subject"></label>
+                    <label class="info"><b>Please Describe the Problem*</b><textarea name="text" rows="4" placeholder="Please enter your question or the description of the problem you're trying to solve." required></textarea></label>
+                    <button type="submit">Create a Ticket</button>
+                
+                </div>
+
+                <div class="container">
+
+                    <button type="button" class="cancelbtn" onclick="document.getElementById('support').style.display='none'">Cancel</button>
+                
+                </div>
+            
+            </form>
         
+        </div>
+
+        <div id="form" class="support-form animate">
+            
+            <form action="join.html" method="get" class="form-content">
+
+                <div class="text-container">
+
+                    <span onclick="document.getElementById('form').style.display='none'"
+                    class="close" title="Close Form">&times;</span>
+                    <h2>ACC Contact Form</h2>
+                
+                </div>
+
+                <p class="comp-para">Fields with * are required</p>
+
+                <div class="container">
+
+                    <label class="info"><b>Name*</b><input type="text" name="fname" placeholder="John Doe" required></label>
+                    <label class="info"><b>Organization</b><input type="text" name="organization" placeholder="Company, Inc."></label>
+                    <label class="info"><b>Email*</b><input type="email" name="email" placeholder="johndoe@gmail.com" required></label>
+                   
+                    <div class="class">
+
+                        <label class="label-flex"><b>Phone</b><input type="tel" name="phone" placeholder="(000) 000-0000"></label>
+                        <label class="label-flex"><b>Contact Prefernce*</b><select name="preference" id="prefered" required>
+                        <option value="">Choose...</option>
+                        <option value="phone">Phone</option>
+                        <option value="email">Email</option>
+                        </select></label>
+                    </div>
+
+                </div>
+
+                <div class="class">
+                    <label class="label-flex"><b>City</b><input type="text" name="City" placeholder="Ikoyi"></label>
+                    <label class="label-flex"><b>State</b><input type="text" name="State" placeholder="LG"></label>
+                    <label class="label-flex"><b>Postal Code</b><input type="text" name="Postal" placeholder="106104"></label>
+                </div> 
+
+                <div>
+
+                    <label class="info"><b>Comments/Questions*</b><textarea name="text" rows="4" placeholder="Please enter your question or the description of the problem you're trying to solve." required></textarea></label>
+                    <button type="submit">Submit Your Contact Form</button>
+                </div>
+
+                <div class="container">
+                    <button type="button" class="cancelbtn" onclick="document.getElementById('form').style.display='none'">Cancel</button>
+                </div>
+
+            </form>
+
+        </div>
+        <hr>
+
+        <div class="points-of-contact">
+
+            <h2>Aargau Chamber of Commerce Contacts</h2><hr>
+
+            <p>Andres Dallas<br> President <br>+4123 678 56 09<br>andresdallas@gmail.com</p>
+             
+            <p>General Information <br>+4170 741 43 81 <br> info@acc.org</p>
+        
+        </div>
+
     </main>
 
     <footer> 
