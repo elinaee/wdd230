@@ -53,9 +53,6 @@ section:hover{
   .cards{
     grid-template-columns: repeat(3, 1fr);
   }   
-  footer h1{
-    font-size: 2em;
-  }
 }
 }
 
