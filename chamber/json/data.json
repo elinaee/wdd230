@@ -11,7 +11,7 @@
       },
       {
         "name": "Code Codilo",
-        "address": "Kaiseraugst",
+        "address": "Kaiseraugst Strasse 24",
         "contact": "+4152 144 11 77 ",
         "url": "https://www.lewagon.com/",
         "logo": "./image",
@@ -19,7 +19,7 @@
       },
       {
         "name": "Milano in Green",
-        "address": "Aarau",
+        "address": "Aarau strasse 12",
         "contact": "+4121 324 42 22",
         "url": "https://www.laufmeter.ch/",
         "logo": "./images/shell.webp",
@@ -27,7 +27,7 @@
       },
       {
         "name": "McDonald's",
-        "address": "Rheinfelden",
+        "address": "Rheinfelden haltestrasse 34",
         "contact": "+4162 246 45 66",
         "url": "https://www.mcdonalds.com/ch/de-ch",
         "logo": "./images/metrobank.webp",
@@ -35,7 +35,7 @@
       },
       {
         "name": "Restaurant Waldhaus Gehren",
-        "address": "Erlinsbach",
+        "address": "Erlinsbach munchenstadt 25",
         "contact": "+4135 830 02 30",
         "url": "http://www.waldhausgehren.ch/",
         "logo": "../chamber/images/restaurant",
@@ -43,7 +43,7 @@
       },
       {
         "name": "Aarau Rohr",
-        "address": "Rohr ",
+        "address": "Rohr Hallstrasse 20 ",
         "contact": "+4188 913 51 18",
         "url": "https://www.merbag.ch/de",
         "logo": "./images/bdo.webp",
@@ -51,15 +51,15 @@
       },
       {
         "name": "Thomann Goldschmied GmbH",
-        "address": "Buchs",
+        "address": "Buchs Hermann Sich 3",
         "contact": "+4151 022 41 08",
         "url": "https://www.thomann-gold.ch/",
         "logo": "./images/manilawater.webp",
-        "membershipLevel": "Non-Profit"
+        "membershipLevel": "Silver"
       },
       {
         "name": "Amazon",
-        "address": "Lausen",
+        "address": "Lausen Habisch Haltestrasse 5",
         "contact": "+4120 425 61 98",
         "url": "https://www.amazon.com",
         "logo": "./images/nestle.webp",
@@ -67,11 +67,11 @@
       },
       {
         "name": "Mövenpick",
-        "address": "Dagmerselen",
+        "address": "Dagmerselen Kunftenstrasse 17",
         "contact": "+4170 150 42 39",
         "url": "https://www.froneri-shop.ch/de/",
         "logo": "./images/cognizant.webp",
-        "membershipLevel": "Gold"
+        "membershipLevel": "Bronze"
       }
     ]
   }
