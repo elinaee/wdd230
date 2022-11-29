@@ -49,6 +49,18 @@ section:hover{
     opacity: 80%;
 }
 
+footer{
+    background-color: rgb(21, 46, 108);
+    color: black;
+    padding: .6em;
+    margin: auto;
+    margin-top: 2em;
+    margin-bottom: 1em;
+    max-width: 1300px;
+    border-radius: 20px;
+    font-size: 22px;
+}
+
 @media only screen and (min-width: 35em){
   .cards{
     grid-template-columns: repeat(3, 1fr);
