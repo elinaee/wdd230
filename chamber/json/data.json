@@ -4,32 +4,26 @@
         "name": "Thankful Transport",
         "address": "Aarau Strasse 7",
         "contact": "+4130 000 44 66",
-        "url": "https://www.thankful-transport.com",
+        "url": "https://www.movu.ch/",
         "logo": "../images/",
         "membershipLevel": "Gold",
-        "slogan": "We get it there for you!",
-        "width": 267,
-        "height": 189
+        "slogan": "We get it there for you!"
       },
       {
         "name": "Code Codilo",
         "address": "Kaiseraugst",
         "contact": "+4152 144 11 77 ",
-        "url": "https://www.codecodilo.school.com",
+        "url": "https://www.lewagon.com/",
         "logo": "./image",
-        "membershipLevel": "Gold",
-        "width": 300,
-        "height": 168
+        "membershipLevel": "Gold"
       },
       {
         "name": "Milano in Green",
         "address": "Aarau",
         "contact": "+4121 324 42 22",
-        "url": "https://www.milano-in-green.com/",
+        "url": "https://www.laufmeter.ch/",
         "logo": "./images/shell.webp",
-        "membershipLevel": "Gold",
-        "width": 300,
-        "height": 168
+        "membershipLevel": "Gold"
       },
       {
         "name": "McDonald's",
@@ -37,9 +31,7 @@
         "contact": "+4162 246 45 66",
         "url": "https://www.mcdonalds.com/ch/de-ch",
         "logo": "./images/metrobank.webp",
-        "membershipLevel": "Silver",
-        "width": 373,
-        "height": 135
+        "membershipLevel": "Silver"
       },
       {
         "name": "Restaurant Waldhaus Gehren",
@@ -47,9 +39,7 @@
         "contact": "+4135 830 02 30",
         "url": "http://www.waldhausgehren.ch/",
         "logo": "../chamber/images/restaurant",
-        "membershipLevel": "Bronze",
-        "width": 339,
-        "height": 149
+        "membershipLevel": "Bronze"
       },
       {
         "name": "Aarau Rohr",
@@ -57,9 +47,7 @@
         "contact": "+4188 913 51 18",
         "url": "https://www.merbag.ch/de",
         "logo": "./images/bdo.webp",
-        "membershipLevel": "Silver",
-        "width": 310,
-        "height": 163
+        "membershipLevel": "Silver"
       },
       {
         "name": "Thomann Goldschmied GmbH",
@@ -67,9 +55,7 @@
         "contact": "+4151 022 41 08",
         "url": "https://www.thomann-gold.ch/",
         "logo": "./images/manilawater.webp",
-        "membershipLevel": "Non-Profit",
-        "width": 284,
-        "height": 177
+        "membershipLevel": "Non-Profit"
       },
       {
         "name": "Amazon",
@@ -77,9 +63,7 @@
         "contact": "+4120 425 61 98",
         "url": "https://www.amazon.com",
         "logo": "./images/nestle.webp",
-        "membershipLevel": "Silver",
-        "width": 225,
-        "height": 225
+        "membershipLevel": "Silver"
       },
       {
         "name": "Mövenpick",
@@ -87,9 +71,7 @@
         "contact": "+4170 150 42 39",
         "url": "https://www.froneri-shop.ch/de/",
         "logo": "./images/cognizant.webp",
-        "membershipLevel": "Gold",
-        "width": 283,
-        "height": 178
+        "membershipLevel": "Gold"
       }
     ]
   }

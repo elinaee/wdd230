@@ -265,16 +265,15 @@
 
 	/*************************** DIRECTORY PAGE *************************/
 
-/* -------------MAIN------------ */
+	/* -------------MAIN------------ */
 
-.menuDirectory {
-    margin: 1rem auto;
-	border: 1px solid rgba(0, 0, 0, 0.1);
-	padding: 0.5rem;
-}
+	main.menuDirectory {
+    	margin: 1rem auto;
+		border: 1px solid rgba(0, 0, 0, 0.1);
+		padding: 0.5rem;
+	}
 
-.imgDirectory {
-    height: 165px;
-    max-width: 100%;
-}
+	.imgDirectory {
+    	max-width: 60%;
+	}
 }

@@ -199,7 +199,6 @@
 	} 
 
 	.imgDirectory {
-    	height: 135px;
-    	max-width: 100%;
+    	max-width: 80%;
 	}
 }
