@@ -283,4 +283,8 @@
 	h1.contact-us {
     	font-size: 35px;
 	}
+
+	div.contacts-page p {
+		font-size: 26px;
+	}
 }
