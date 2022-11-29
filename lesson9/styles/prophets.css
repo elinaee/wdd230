@@ -38,10 +38,6 @@ h1, h2{
     color: white;
 }
 
-footer h1{
-    font-size: 1em;
-}
-
 section{
     margin: 3%;
     background-color: #6c8ccf42;
@@ -52,19 +48,7 @@ section{
 section:hover{
     opacity: 80%;
 }
-footer h1{
-    background-color: #4363af42;
-    color: black;
-    padding: .6em;
-    margin: auto;
-    margin-top: 2em;
-    margin-bottom: 1em;
-    max-width: 1300px;
-    border-radius: 20px;
-}
-.school{
-    color: #0050A0;
-}
+
 @media only screen and (min-width: 35em){
   .cards{
     grid-template-columns: repeat(3, 1fr);
