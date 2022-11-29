@@ -287,4 +287,7 @@
 	div.contacts-page p {
 		font-size: 26px;
 	}
+	div.contacts-page {
+		width: 1340px;
+	}
 }
