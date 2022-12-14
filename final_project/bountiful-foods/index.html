@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+  <title>Bountiful Foods</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="Elisabete Stahl" content="WDD 230">
+  <meta name="description" content="Bountiful Foods is an online and physical shop of fresh and organic fruits and juices where you can costumize your own drink. We are located in the Huntington Beach Area in the State of California.">
+  <link rel="shortcut icon" href="favicon.ico">
+  <link rel="stylesheet" href="../bountiful-foods/styles/normalize.css">
+  <link rel="stylesheet" href="../bountiful-foods/styles/small.css">
+  <link rel="stylesheet" href="../bountiful-foods/styles/medium.css">
+  <link rel="stylesheet" href="../bountiful-foods/styles/large.css">
+
+</head>
+
+<body>
+
+  <header>
+
+    <nav class="topnav" id="myTopnav">
+
+        <a href="../bountiful-foods/index.html" class="active"><h1><img class="logo" src="../bountiful-foods/images/logo-icon1.webp" alt="Bountiful Foods's logo"> Bountiful Foods</h1></a>
+        <a href="../bountiful-foods/fresh.html" id="fresh">Fresh</a>
+        <a href="../bountiful-foods/about.html" id="about">About Us</a>
+        <a href="javascript:void(0);" class="icon" onclick="toggleMenu()">
+            ☰
+        </a>
+
+    </nav>
+
+</header>
+
+<main>
+
+  <div class="accentImg-bg-out" style="background-image: url(//ifu.site-ym.com/graphics/veggies-bg.jpg)">
+    <div class="container">
+        <!-- IMAGE (DIMENSIONS 415x500) -->
+        <img src="https://cdn.ymaws.com/ifu.site-ym.com/graphics/veggie-closeup.jpg" alt="/" class="trapezoid-shape">
+    </div>
+</div>
+
+    <section id="area-sum">
+
+        <!-- <picture>
+
+            <source media="(max-width: 600px)" srcset="./images/fruitbowl-620.webp" >
+            <source media="(min-width: 601px)" srcset="./images/fruitbowl-960.webp" >
+            <img src="./images/placeholder.png" data-src="./images/fruitbowl-960.webp" alt="two bowls of assorted fruits" id="hero-img">
+
+        </picture>       -->
+
+        <div class="true-center">
+
+          <h2>Huntington Beach Area</h2>
+
+          <p>Huntington Beach is a seaside city in Orange County in Southern California and it is one of the most populous cities in Orange County. 
+            This city is known for its long 9.5-mile (15.3 km) stretch of sandy beach, mild climate, excellent surfing, and beach culture. Its nickname 
+            is the "Surf City".
+          </p>
+
+        </div>
+
+    </section>
+
+    <section id="cta" class="true-center">
+
+        <h2 class="bigger-h">Costumize your own drink!</h2>
+
+        <form action="../bountiful-foods/fresh.html">
+
+          <input class="btn btn-primary" type="submit" value="Let's do it">
+
+        </form>
+
+        <div class="accentImg-bg-out" style="background-image: url(//ifu.site-ym.com/graphics/fruits-bg.jpg);">
+          <div class="container">
+              <!-- IMAGE (DIMENSIONS 415x500) -->
+              <img src="https://cdn.ymaws.com/ifu.site-ym.com/graphics/fruits-closeup.jpg" alt="/" class="trapezoid-shape">
+          </div>
+        </div>
+
+    </section>
+
+
+    <div id="div-double" class="true-center-sm">
+
+        <section id="drink-count" class="true-center">
+
+            <h2 class="bigger-h">Your drink(s) total cost: </h2>
+            <br>
+            <span id="drink-total" class="bigger-h"></span>
+
+        </section>
+
+
+
+        <section id="weather" class="true-center">
+
+            <h2 class="bigger-h">Weather</h2>
+
+            <div id="top-weath" class="true-center">
+
+                <img src="https://via.placeholder.com/150" alt="placeholder" id="weath-img">
+                <span class="bigger-h" id="temp"></span>
+                <span id="humid"></span>
+                <span id="conditions"></span>
+
+            </div>
+
+            <hr>
+            <div id="bot-weath" class="row-center">
+
+                <div id="day1" class="forecast">
+
+                    <p id="dOW1"></p>
+                    <p id="hi1" class="hi"></p>
+                    <p id="lo1" class="lo"></p>
+
+                </div>
+
+
+                <div id="day2" class="forecast">
+
+                    <p id="dOW2"></p>
+                    <p id="hi2" class="hi"></p>
+                    <p id="lo2" class="lo"></p>
+
+                </div>
+
+
+                <div id="day3" class="forecast">
+
+                    <p id="dOW3"></p>
+                    <p id="hi3" class="hi"></p>
+                    <p id="lo3" class="lo"></p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </div>
+    
+</main>
+
+<footer class="true-center">
+
+    <div class="social-links">
+
+        <a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://twitter.com" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+        <a href="https://www.youtube.com" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+
+    </div>
+
+
+    <div class="contact-foot">
+
+        <p class="like-head"><strong>CONTACT:</strong></p>
+        <p>317 E Pacific Coast Hwy, Huntington Beach, CA 92648, US</p>
+        <p> +1 714 374 6446</p>
+        <p>bountiful-foods@info.com</p>    
+
+    </div>
+
+    <p>Last Modified: <span class="last-modified"></span></p>
+
+</footer>
+
+<script src="../bountiful-foods/scripts/main.js" async defer></script>
+<script src="../bountiful-foods/scripts/weatherapi.js" async defer></script>
+<script src="../bountiful-foods/scripts/lazyloading.js" async defer></script>
+   
+    
+</body>
+</html>
