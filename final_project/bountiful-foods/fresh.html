@@ -32,41 +32,72 @@
 
     </nav>
 
+    <div class="banner true-center">
+        <img src="//ifu.site-ym.com/resource/resmgr/hphero/fruit_and_juice_main3.png" alt="fruit juices and fruits">
+    </div>
+
 </header>
 
-<main>
+<main class="formpage">
 
-  <div class="accentImg-bg-out" style="background-image: url(//ifu.site-ym.com/graphics/veggies-bg.jpg)">
-    <div class="container">
-        <!-- IMAGE (DIMENSIONS 415x500) -->
-        <img src="https://cdn.ymaws.com/ifu.site-ym.com/graphics/veggie-closeup.jpg" alt="/" class="trapezoid-shape">
-    </div>
-</div>
+    
+    <fieldset class="container">
 
-    <section id="area-sum">
+        <div class="formheader">
 
-        <!-- <picture>
-
-            <source media="(max-width: 600px)" srcset="./images/fruitbowl-620.webp" >
-            <source media="(min-width: 601px)" srcset="./images/fruitbowl-960.webp" >
-            <img src="./images/placeholder.png" data-src="./images/fruitbowl-960.webp" alt="two bowls of assorted fruits" id="hero-img">
-
-        </picture>       -->
-
-        <div class="true-center">
-
-          <h2>Huntington Beach Area</h2>
-
-          <p>Huntington Beach is a seaside city in Orange County in Southern California and it is one of the most populous cities in Orange County. 
-            This city is known for its long 9.5-mile (15.3 km) stretch of sandy beach, mild climate, excellent surfing, and beach culture. Its nickname 
-            is the "Surf City".
-          </p>
+            <h2>Ready to create your unique and fresh fruit drink?</h2>
 
         </div>
 
-    </section>
+        <div class="divider"></div>
 
-    <section id="cta" class="true-center">
+        <form action="#" method="get">
+
+            
+            <label class="formfield"><b>First Name<span class="req">*</span></b>
+                <input type="text" name="fname" placeholder="eg. Seth" required>
+            </label>
+
+            <label class="formfield"><b>Email<span class="req">*</span></b>
+                <input type="email" name="email" placeholder="example@domain.com" required>
+            </label>
+
+            <label class="formfield"><b>Phone Number<span class="req">*</span></b>
+                <input type="tel" name="number" required>
+            </label>
+
+
+            <fieldset class="container2">
+
+                <legend class="radiotitle"><b>Please select 3 fruits:<span class="req">*</span></b></legend>
+                
+                <label><input class="radioBtn" type="radio" name="membership" value="NP Membership">NP Membership</label><br>
+
+                <label><input class="radioBtn" type="radio" name="membership" value="Bronze Membership">Bronze Membership</label><br>
+
+                <label><input class="radioBtn" type="radio" name="membership" value="Silver Membership">Silver Membership</label><br>
+
+            </fieldset>
+
+
+            <label class="formfield special"><b>Special Instructions</b>
+                <textarea cols="40" rows="4" name="description" ></textarea>
+            </label>
+
+            <div class="divider"></div>
+
+            <div class="submitBtn">
+                <input type="submit" value="Mix it!">
+            </div>
+
+            <input type="hidden" id="thedate" name="thedate">
+        </form>
+    
+    </fieldset>
+
+
+
+    <section id="cta">
 
         <h2 class="bigger-h">Costumize your own drink!</h2>
 
@@ -75,13 +106,6 @@
           <input class="btn btn-primary" type="submit" value="Let's do it">
 
         </form>
-
-        <div class="accentImg-bg-out" style="background-image: url(//ifu.site-ym.com/graphics/fruits-bg.jpg);">
-          <div class="container">
-              <!-- IMAGE (DIMENSIONS 415x500) -->
-              <img src="https://cdn.ymaws.com/ifu.site-ym.com/graphics/fruits-closeup.jpg" alt="/" class="trapezoid-shape">
-          </div>
-        </div>
 
     </section>
 
@@ -97,53 +121,6 @@
         </section>
 
 
-
-        <section id="weather" class="true-center">
-
-            <h2 class="bigger-h">Weather</h2>
-
-            <div id="top-weath" class="true-center">
-
-                <img src="https://via.placeholder.com/150" alt="placeholder" id="weath-img">
-                <span class="bigger-h" id="temp"></span>
-                <span id="humid"></span>
-                <span id="conditions"></span>
-
-            </div>
-
-            <hr>
-            <div id="bot-weath" class="row-center">
-
-                <div id="day1" class="forecast">
-
-                    <p id="dOW1"></p>
-                    <p id="hi1" class="hi"></p>
-                    <p id="lo1" class="lo"></p>
-
-                </div>
-
-
-                <div id="day2" class="forecast">
-
-                    <p id="dOW2"></p>
-                    <p id="hi2" class="hi"></p>
-                    <p id="lo2" class="lo"></p>
-
-                </div>
-
-
-                <div id="day3" class="forecast">
-
-                    <p id="dOW3"></p>
-                    <p id="hi3" class="hi"></p>
-                    <p id="lo3" class="lo"></p>
-
-                </div>
-
-            </div>
-
-        </section>
-
     </div>
     
 </main>
@@ -152,9 +129,9 @@
 
     <div class="social-links">
 
-        <a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i></a>
-        <a href="https://twitter.com" target="_blank"><i class="fa-brands fa-twitter"></i></a>
-        <a href="https://www.youtube.com" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+        <a href="https://www.facebook.com" target="_blank"><img src="../bountiful-foods/images/facebook.png" alt="facebook icon"></a>
+        <a href="https://instagram.com" target="_blank"><img src="../bountiful-foods/images/instagram.png" alt="instagram icon"></a>
+        <a href="https://www.youtube.com" target="_blank"><img src="../bountiful-foods/images/youtube.png" alt="youtube icon"></a>
 
     </div>
 

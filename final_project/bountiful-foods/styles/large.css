@@ -1,0 +1,16 @@
+@media only screen and (min-width: 60em) {
+/***********************HOME PAGE**************************/
+
+
+/***********************FRESH******************************/
+/* ------------MAIN------------- */
+main.formpage {
+    padding: 3rem 0 0 19rem;
+    height: 1380px;
+}
+
+form input.radioBtn {
+    padding: .4rem 0 ;
+}
+
+}

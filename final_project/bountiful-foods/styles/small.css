@@ -67,24 +67,7 @@ main{
     width:100%;
     height: 100%;
   }
-
-  .loaded {
-    animation: fade-in 0.7s;
-    animation-iteration-count: 1;
-
-    }
     
-    @keyframes fade-in {
-        from {
-            transform: scale(0.9);
-            border-radius: 100%;
-        }
-        to {
-            transform: scale(1);
-            border-radius: none;
-    
-        }
-    }
 
   @media screen and (max-width: 600px) {
     .true-center-sm{
@@ -173,9 +156,7 @@ header{
   }
 
 
-/* ----------- Home Page ----------- */
-
-/* Area Summary */
+/*------- Area Summary ------*/
 
 #area-sum{
     position: relative;
@@ -327,6 +308,102 @@ footer i:hover{
 
 .contact-foot{
   margin-bottom: 20px;
+}
+
+
+/***********************FRESH******************************/
+.banner img {
+  display: block;
+  max-width: 100%;
+}
+
+/* -------------HEADINGS-------- */
+.formheader h2 {
+  align-items: center;
+}
+
+
+/* -------------MAIN------------ */
+
+fieldset.container {
+  display: grid;
+  padding: 2rem;
+  background-color: #ca2750a3;
+  width: 70%;
+}
+
+fieldset.container2 {
+  margin-bottom: 35px;
+}
+
+label, input {
+  display: block;
+}
+
+form label.formfield {
+  margin: 3px;
+}
+
+label.formfield input {
+  padding: .75rem;
+  margin-bottom: 20px;
+  font-size: 1rem;
+  border: solid 1px #999;
+  border-radius: 4px;
+  color: rgb(58, 58, 58);
+  width: 100%;
+  max-width: 20rem;
+}
+
+/* label.formfield input:required {
+  border-left: red ;
+}
+
+label.formfield input:required:valid {
+  border-left: green solid 6px;
+}*/
+
+label.formfield textarea {
+  margin-bottom: 20px;
+  font-size: 1rem;
+  border: solid 1px #999;
+  border-radius: 4px;
+  color: rgb(58, 58, 58);
+  padding: .75rem;
+}
+
+fieldset legend.radiotitle {
+  padding: .5rem;
+  margin-bottom: 10px;
+  margin-top: 15px;
+}
+
+form input.radioBtn {
+  margin-bottom: .75rem;
+  color: rgb(58, 58, 58);
+}
+
+div.submitBtn input {
+  margin-top: 30px;
+  background-color: #DCA320;
+  color: white;
+  border-radius: 1rem;
+  padding: .75rem 1.5rem;
+  margin: 1.5rem 0 0 2%;
+  width: 96%;
+  max-width: 20rem;
+}
+
+.divider {
+  margin: auto;
+  height: 2px;
+  width: 100%;
+  display: block;
+  background-image: linear-gradient(to right, #DCA320, white, #DCA320);
+}
+
+.req {
+  color: red; 
 }
 
 
