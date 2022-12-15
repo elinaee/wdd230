@@ -191,7 +191,7 @@ button span {
     height: 100%;
 }
 
-.hero button {
+.hero button { 
     background-color: rgb(92, 89, 89);
     color: white;
     text-decoration: none;
