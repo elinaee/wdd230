@@ -206,9 +206,11 @@ header{
   /*---------- Weather -----------*/
 #weather{
     grid-area:weath;
-    height: 80vh;
+    height: 100vh;
     background-color: #4BC7DB ;
     width: 50vw;
+    float: right;
+    margin-bottom: 150px;
 }
 
 #weath-img{
