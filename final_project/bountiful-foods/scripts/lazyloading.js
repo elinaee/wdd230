@@ -9,7 +9,7 @@ const loadImages = (image) => {
         }
     };
 }
-// Check to see if Intersection Observer is supported
+
 if ("IntersectionObserver" in window) {
     const observer = new IntersectionObserver((items, observer) => {
       items.forEach((item) => {
@@ -27,4 +27,21 @@ if ("IntersectionObserver" in window) {
       loadImages(img);
       
     });
+}
+
+
+// geolocation API
+
+var x = document.getElementById("demo");
+function getLocation() {
+  if (navigator.geolocation) {
+    navigator.geolocation.getCurrentPosition(showPosition);
+  } else {
+    x.innerHTML = "Geolocation is not supported by this browser.";
   }
+}
+
+function showPosition(position) {
+  x.innerHTML = "Latitude: " + position.coords.latitude +
+  "<br>Longitude: " + position.coords.longitude;
+}

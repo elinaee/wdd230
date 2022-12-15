@@ -8,7 +8,17 @@
     min-height: 500px;
 }
 
+h1, h2 {
+  font-family: 'Barrio', cursive;
+}
 
+h3 {
+  font-family: 'Gorditas', cursive;
+}
+
+p {
+  font-family: 'Sulphur Point', sans-serif;
+}
 
 main{
     overflow-x: hidden;
@@ -69,91 +79,53 @@ main{
   }
     
 
-  @media screen and (max-width: 600px) {
-    .true-center-sm{
-      display: flex;
-      justify-content: center;
-      align-content: center;
-      flex-direction: column;
-      text-align: center;
-    
-    }
-
-    #div-double{
-      grid-template-areas: 
-      "count"
-      "weath";
-    }
-  }
-
 /* ----------------- NAVIGATION ----------------- */
 header{
-    position: relative;
+  position: relative;
 }
+
 .topnav {
-    overflow: hidden;
-  }
+  overflow: hidden;
+}
   
-  .topnav a {
-    float: left;
-    display: block;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-  }
-  .topnav a:not(:first-child){
-    padding: 17.5px 25px;
-  }
+.topnav a {
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
 
-  .topnav a:hover {
-    background-color: #97CE27;
-    color: black;
-  }
+.topnav a:not(:first-child){
+  padding: 17.5px 25px;
+}
+
+.topnav a:hover {
+  background-color: #97CE27;
+  color: black;
+}
   
-  /* Add an active class to highlight the current page */
-  .topnav a.active {
-    background-color: #97CE27;
-    color: #CA2750;
-  }
+.topnav a.active {
+  background-color: #97CE27;
+  color: #CA2750;
+}
 
-  .topnav a.inactive {
-    color: white;
-  }
+.topnav a.inactive {
+  color: white;
+}
   
-  .topnav .icon {
-    display: none;
-  }
+.topnav .icon {
+  display: none;
+}
 
-  #fresh:hover::after{
-    content:" 🍓";
-  }
+#fresh:hover::after{
+  content:" 🍓";
+}
 
-  #about:hover::after{
-    content:"🍓";
-  }
-
-  @media screen and (max-width: 600px) {
-    .topnav a:not(:first-child) {display: none;}
-    .topnav a.icon {
-      float: right;
-      display: block;
-    }
-
-    /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
-    .topnav.responsive {position: relative;}
-    .topnav.responsive a.icon {
-        position: absolute;
-        right: 0;
-        top: 0;
-    }
-    
-    .topnav.responsive a {
-        float: none;
-        display: block;
-        text-align: left;
-    }
-  }
+#about:hover::after{
+  content:"🍓";
+}
 
 
 /*------- Area Summary ------*/
@@ -164,84 +136,64 @@ header{
 }
 
 #area-sum > h2{
-    position: absolute;
-    font-size: 3rem;
-    top: 5px;
-    left: 50%;
-    transform: translate(-50%, 0%);
-    color: white;
-    z-index: 3;
-    padding: 7px;
-    border-radius: 15px;
+  position: absolute;
+  font-size: 3rem;
+  top: 5px;
+  left: 50%;
+  color: white;
+  z-index: 3;
+  padding: 7px;
+  border-radius: 15px;
 }
 
 #area-sum > div{
-    position: absolute;
-    bottom: 70px;
-    left: 50%;
-    transform: translate(-50%, 0%);
-    width: 100%;
-    padding: 30px 70px;
-    background-color: #ca2750a3;
-    color:white;
+  position: absolute;
+  bottom: 70px;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  width: 100%;
+  padding: 30px 70px;
+  background-color: #ca2750a3;
+  color:white;
 }
 
-@media screen and (max-width: 600px) {
-    #area-sum > h2{
-        font-size: 2rem;
-        text-decoration: none;
-    }
 
-    #area-sum > div{
-        height: 98.5%;
-        padding: 0;
-        vertical-align: middle;
-        top: 0px;
-        left: 50%;
-        transform: translate(-50%, 0%);
-        padding-top: 30px;
-        font-size: 0.9rem;
-    }
+/*---------- Drink Count ----------*/
+#drink-count{
+  grid-area:count;
+  height: 80vh;
+  background-color: #DCA320;
+  color: white;
+  width:50vw; 
+}
 
-  }
-
-
-  /*---------- Drink Count ----------*/
-  #drink-count{
-    grid-area:count;
-    height: 80vh;
-    background-color: #DCA320;
-    color: white;
-    width:50vw; 
-  }
-
-  /*---------- Weather -----------*/
+/*---------- Weather -----------*/
 #weather{
-    grid-area:weath;
-    height: 80vh;
-    background-color: #4BC7DB ;
-    width: 50vw;
+  grid-area:weath;
+  height: 80vh;
+  background-color: #4BC7DB ;
+  width: 50vw;
 }
 
 #weath-img{
-    width: 150px;
-    height: auto;
-    margin: 0 auto;
-    margin-bottom: -40px;
+  width: 150px;
+  height: auto;
+  margin: 0 auto;
+  margin-bottom: -40px;
 }
 
 #temp{
-    float: inline-end;
+  float: inline-end;
 }
 
 #weather > hr{
-    width:50%;
-    margin: 15px auto;
-    color: #DCA320;
-    border: 0;
-    height: 0;
-    border: none;
-    box-shadow: 0 0 0px 1px white;
+  width:50%;
+  margin: 15px auto;
+  color: #DCA320;
+  border: 0;
+  height: 0;
+  border: none;
+  box-shadow: 0 0 0px 1px white;
 }
 
 .forecast{
@@ -265,36 +217,22 @@ color: white;
   color: black;
 }
 
-@media screen and (max-width: 600px) {
-  #drink-count{
-    width:100vw;
-  }
-
-  #weather{
-    width: 100vw;
-  }
-
-  #weath-img{
-    width:100px;
-    margin: 0 auto;
-  }
-}
 
 /*-----------Footer-----------*/
 
 footer{
-    height:20vh;
-    color: black;
-    padding: 30px;
+  height:20vh;
+  color: black;
+  padding: 30px;
 }
 
 footer i{
-    color: #DCA320;
+  color: #DCA320;
 }
 
 footer i:hover{
-    color: #CA2750;
-    transition: 500ms;
+  color: #CA2750;
+  transition: 500ms;
 }
 
 .social-links{
@@ -406,51 +344,47 @@ div.submitBtn input {
   color: red; 
 }
 
+#output {
+  grid-area: count;
+  height: 40vh;
+  background-color: #DCA320;
+  color: white;
+  width: 59vw; 
+}
 
 /******************** ABOUT US PAGE ***********************/
-#history-txtbx{
-  background-color: #006D77;
+
+.grid-photos {
+  display:grid; 
+  grid-template-columns: 1fr 1fr 1fr; 
+  grid-gap: 20px;
+  place-items: center;
+}
+
+.hover:hover {
+  box-shadow: 0 0 50px #97CE27;
+}
+
+#story {
+  grid-area: count;
+  height: 55vh;
+  background-color: #DCA320;
   color: white;
-  padding: 50px;
+  width: 39vw;
+  border-radius: 15px;
+  float: right;
 }
 
-#our-story h2{
-  color: white;
+h3.slogan {
+  font-size: 33px;
 }
 
-#map {
-  height: 400px;
-  /* The height is 400 pixels */
-  width: 100%;
-  /* The width is the width of the web page */
-}
 
-#contact{
-  background-color: var(--accent2);
-  padding: 5%;
-}
-
-#contact-container{
-  text-align: left;
-}
-
-@media screen and (max-width: 600px) {
-  #gmap-container iframe{
-    height: 300px;
-    width: 300px;
-  }
-
-  #our-story > img, #our-story .drk-overlay {
-    display: none;
-  }
-
-  #our-story h2{
-    color: black;
-    text-align: center;
-    padding: 10px;
-  }
-
-  #contact-container{
-    margin: 15px;
-  }
+#location {
+  grid-area: weath;
+  height: 55vh;
+  background-color: #97CE27 ;
+  width: 59vw;
+  padding: 2px;
+  border-radius: 15px;
 }
