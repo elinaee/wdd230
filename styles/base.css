@@ -21,6 +21,7 @@ header{
     grid-template-columns: auto auto;
     max-width: 800px;
     margin-left: 270px;
+    grid-row: 1/3;
 }
 
 .photo img {
@@ -47,8 +48,11 @@ nav {
 }
 
 nav ul a {
+    display: block;
     color: white;
     list-style-type: none;
+    align-items: center;
+    text-align: center;
 }
 
 .card {
