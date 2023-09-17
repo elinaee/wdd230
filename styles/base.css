@@ -44,7 +44,15 @@ nav {
     background: #840707;
     max-width: 800px;
     margin-left: 280px;
-    list-style: none;
+    list-style-type: none;
+}
+
+nav ul li {
+    list-style-type: none;
+}
+
+.card ul li {
+    list-style-type: none;
 }
 
 nav ul a {
